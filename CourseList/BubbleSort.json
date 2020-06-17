@@ -1,0 +1,75 @@
+{
+    "title": "Bubble Sort",
+    "facts": [
+        {
+            "title": "Stabilita",
+            "content": "@Icons.check",
+            "detail" : "@../Stabilita.txt"
+        },
+        {
+            "title": "Zložitosť",
+            "subcontent": "Priemerná",
+            "content" : "@~/On_2.png"
+        },
+        {
+            "title": "Zložitosť",
+            "subcontent" : "Najhoršia",
+            "content" : "@~/On_2.png"
+        }
+    ],
+
+    "brief": "__Bubble Sort__ je implementačne jednoduchý výmenný triediaci algoritmus. Pracuje na mieste a nepatrí medzi prirodzené triediace algoritmy. Pre praktické využitie je neefektívny. ",
+    "visual": {
+        "source": "@~/Assets/bubblesort.gif"
+    },
+    "quiz": "@../Practice/SampleQuiz.json",
+    "detail": [
+        "## Algoritmus\n",
+        "- Porovnáva sa každá dvojica susedných prvkov smerom zľava do prava.\n",
+        "- V prípade obrateného usporiadania sa prvky tejto dvojice vymenia.\n",
+        "- Algoritmus pokračuje, až kým pole nieje zoradené\n",
+        
+        "\n\nPracuje opakovaným prechodom cez zoznam, ktorý má byť utriedený porovnávajúc vždy dva prvky. Ak prvky nie sú v správnom poradí, zamení ich. Porovnávanie prvkov v zozname trvá, pokiaľ sú potrebné výmeny, teda pokiaľ nie je zoznam usporiadaný. Algoritmus dostal názov vďaka tomu, že menšie prvky sa „prebublinkujú“ na začiatok zoznamu.\n",
+        "- V prípade obrateného usporiadania sa prvky tejto dvojice vymenia.\n",
+        "- Algoritmus pokračuje, až kým pole nieje zoradené\n",
+        "- Porovnáva sa každá dvojica susedných prvkov smerom zľava do prava.\n",
+        "- V prípade obrateného usporiadania sa prvky tejto dvojice vymenia.\n",
+        "- Algoritmus pokračuje, až kým pole nieje zoradené\n",
+        "- Porovnáva sa každá dvojica susedných prvkov smerom zľava do prava.\n",
+        "- V prípade obrateného usporiadania sa prvky tejto dvojice vymenia.\n",
+        "- Algoritmus pokračuje, až kým pole nieje zoradené\n",
+        "- Porovnáva sa každá dvojica susedných prvkov smerom zľava do prava.\n",
+        "- V prípade obrateného usporiadania sa prvky tejto dvojice vymenia.\n",
+        "- Algoritmus pokračuje, až kým pole nieje zoradené\n",
+        "Some Markdown text with <span style=\"color:blue\">some <em>blue</em> text</span>\n",
+        " ``` \n",
+        "void main() {\n",
+        "  runApp(MaterialApp(\n",
+        "    home: Scaffold(\n",
+        "      body: Markdown(data: markdownData)\n",
+        "    ),\n",
+        "  ));\n",
+        "}\n",
+        "```\n",
+
+        "## Tables\n",
+        "|Syntax                                 |Result                               |",
+        "|---------------------------------------|-------------------------------------|",
+        "|`*italic 1*`                           |*italic 1*                           |",
+        "|`_italic 2_`                           | _italic 2_                          |",
+        "|`**bold 1**`                           |**bold 1**                           |",
+        "|`__bold 2__`                           |__bold 2__                           |",
+        "|`This is a ~~strikethrough~~`          |This is a ~~strikethrough~~          |",
+        "|`***italic bold 1***`                  |***italic bold 1***                  |",
+        "|`___italic bold 2___`                  |___italic bold 2___                  |",
+        "|`***~~italic bold strikethrough 1~~***`|***~~italic bold strikethrough 1~~***|",
+        "|`~~***italic bold strikethrough 2***~~`|~~***italic bold strikethrough 2***~~|",
+        "## Styling\n",
+        "Style text as _italic_, __bold__, ~~strikethrough~~, or `inline code`.\n",
+        "- Use bulleted lists\n",
+        "- To better clarify\n",
+        "- Your points\n",
+        " $\\omega = d\\phi / dt$"
+
+    ]
+}

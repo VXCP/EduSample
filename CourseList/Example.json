@@ -1,0 +1,111 @@
+{
+    "title": "Lecture Ex.",
+    "hierarchy": {
+        "source": "@~/Example.png",
+        "position": "0.5:0.0"
+    },
+    "facts": [
+        {
+            "title": "Icon",
+            "content": "@Icons.check",
+            "detail" : 
+            [
+                "Syntax: @Icon.<icon_name>\n",
+                "For list of icons check Lecture 'Icons'"
+            ]
+        },
+        {
+            "title": "Image",
+            "subcontent": "PNG, JPG, GIF...",
+            "content" : "@~/On_2.png",
+            "detail": [
+                "Syntax: @<path_to_image>.<extension>\n",
+                "## Supported extensions:\n",
+                "- PNG\n",
+                "- JPG, JPEG \n",
+                "- BMP \n",
+                "- GIF \n",
+                "- WEBP \n",
+                "- $$\\frac{A}{2*B}$$",
+                "## Partially Supported Image files\n",
+                "- SVG [Not working very often :(]"
+            ]
+        },
+        {
+            "title": "Text",
+            "subcontent" : "Basic Text",
+            "content": "Example"
+        }
+    ],
+
+    "brief": [
+        "This is an example of a brief description. \n",
+        "### Supports Markdown Notation :) \n",
+        "$$\\frac{A}{2*B}$$\n",
+        "$$\\frac{A}{2*B}$$"
+    ],
+    "visual": {
+        "source": "@~/Example.png"
+    },
+    "quiz":["@../Practice/SampleQuiz.json","@../Practice/SampleQuiz2.json"],
+    "detail": [
+        
+        "# Detailed description\n",
+        "- Double tap to zoom\n",
+        "- Markdown Support\n\n\n",
+        "## Code\n",
+        " ``` \n",
+        "{\n",
+        "  \"title\": \"Lecture Ex.\" \n",
+        "  \"facts\": [<fact>, <fact>, <fact> ...]\n",
+        "  \"brief\": \"Brief description text\" \n",
+        "  \"visual\": <visual> \n",
+        "  \"detail\":\"Longer description\" \n",
+        "}\n",
+        "```\n",
+        "\n",
+        "## *<fact>*\n",
+        " ``` \n",
+        "{\n",
+        "  \"title\": \"Icon\" \n",
+        "  \"subcontent\": [<fact>, <fact>, <fact> ...]\n",
+        "  \"content\": \"@Icon.check\" \n",
+        "  \"detail\": \"Text while holding\" \n",
+        "}\n",
+        "```\n",
+
+        "\n",
+        "## *<visual>* \n",
+        " ``` \n",
+        "{\n",
+        "  \"source\": \"@~/Example.png\" \n",
+        "}\n",
+        "```\n",
+        "\n",
+        "## Tables\n",
+        "|Syntax                                 |Result                               |\n",
+        "|---------------------------------------|-------------------------------------|\n",
+        "|`*italic 1*`                           |*italic 1*                           |\n",
+        "|`_italic 2_`                           | _italic 2_                          |\n",
+        "|`**bold 1**`                           |**bold 1**                           |\n",
+        "|`__bold 2__`                           |__bold 2__                           |\n",
+        "|`This is a ~~strikethrough~~`          |This is a ~~strikethrough~~          |\n",
+        "|`***italic bold 1***`                  |***italic bold 1***                  |\n",
+        "|`___italic bold 2___`                  |___italic bold 2___                  |\n",
+        "|`***~~italic bold strikethrough 1~~***`|***~~italic bold strikethrough 1~~***|\n",
+        "|`~~***italic bold strikethrough 2***~~`|~~***italic bold strikethrough 2***~~|\n",
+        "|`Test Math in Table`                   |($\\omega = d\\phi / dt$)            |\n",
+        "|`Test Math Frac in Table`              |$(a=\\frac{\\sqrt{b}}{15})$            |\n",
+        "\n",
+        "## Styling\n",
+        "Style text as _italic_, __bold__, ~~strikethrough~~, or `inline code`.\n",
+        "- Use bulleted lists\n",
+        "- To better clarify\n",
+        "- Your points\n",
+        "## Not Supported\n",
+        "$\\ce{CO2 + H2O->H2CO3}$",
+        "- Math ($\\omega = d\\phi / dt$)",
+        "- Colors (<span style=\"color:blue\">some <em>blue</em> text</span>)\n"
+
+    ]
+}

@@ -1,0 +1,240 @@
+[{
+        "type": "choice",
+        "list": [{
+                "text": "Zadanie otazky >> Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com)\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS",
+                "visual": "@~/Example.png",
+                "sound": "@",
+                "answer_detail": "Just because it is",
+                "true": [
+                    "True is true 1<|>@~/Example.png",
+                    "Kyselina 3-hydrogen fosforečnáaaaaaaaaaaaaaaaaaaaaaaaaaa<|>@~/Example.png",
+                    "True 3<|>@~/Example.png",
+                    "Ueeeee<|>@~/Example.png"
+                ],
+                "false": [
+                    "Fake is 1<|>@~/Example.png",
+                    "Fake 2<|>@~/Example.png",
+                    "Fake 3<|>@~/Example.png",
+                    "Fake 4<|>@~/Example.png"
+                ]
+            },
+            {
+                "text": "Zadanie otazky >> Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com)\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS",
+                "answer_detail": "Just because it is",
+                "true": [
+                    "True is true 1<|>@~/Example.png",
+                    "Kyselina 3-hydrogen fosforečná<|>@~/Example.png",
+                    "True 3<|>@~/Example.png",
+                    "Ueeeee<|>@~/Example.png",
+                    {
+                        "text": "Helllo",
+                        "image": "@~/Example.png",
+                        "sound": "~/Somewhere.mp3"
+                    }
+                ],
+                "false": [
+                    "Fake is 1<|>@~/Example.png",
+                    "Fake 2<|>@~/Example.png",
+                    "Fake 3<|>@~/Example.png",
+                    "Fake 4<|>@~/Example.png"
+                ]
+            },
+            {
+                "text": "Zadanie otazky >> Multiple choice [I'm an inline-style link](dict://www.google.com)\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS",
+                "visual": "@~/Example.png",
+                "answer_detail": "Just because it is",
+                "true": [
+                    "True 1",
+                    "True 2",
+                    "True 3",
+                    "Fake 4"
+                ],
+                "false": [
+                    "Fake 1",
+                    "Fake 2",
+                    "Fake 3",
+                    "Fake 4"
+                ]
+            },
+            {
+                "text": "Zadanie otazky >> Single Choice|)",
+                "sound": "@",
+                "true": [
+                    "True 1"
+                ],
+                "false": [
+                    "Fake 1",
+                    "Fake 2",
+                    "Fake 3"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "truth",
+        "true": [{
+                "text": "This should be TRUE __with__ Sound and Visual",
+                "sound": "@",
+                "visual": "@~/Example.png"
+            },
+            "This should be TRUE __without__ anything - Simple String",
+            {
+                "text": "This should be TRUE __with__ Sound",
+                "sound": "@"
+            },
+            {
+                "text": "This should be TRUE __with__ Visual",
+                "visual": "@~/Example.png"
+            },
+            {
+                "text": "This should be TRUE __without__ anything - Object"
+            }
+        ],
+        "false": [{
+                "text": "This should be FALSE __with__ Sound and Visual",
+                "sound": "@",
+                "visual": "@~/Example.png"
+            },
+            "This should be FALSE __without__ anything - Simple String",
+            {
+                "text": "This should be FALSE __with__ Sound",
+                "sound": "@"
+            },
+            {
+                "text": "This should be FALSE __with__ Visual",
+                "visual": "@~/Example.png"
+            },
+            {
+                "text": "This should be FALSE __without__ anything - Object"
+            }
+        ]
+    },
+    {
+        "type": "sort",
+        "text": "Welcome To Sort Question. Please sort the following constants by value from __highest__ to __lowest__",
+        "sort": [
+            "9         ",
+            "π         | 3.15",
+            "e         | 2.8",
+            "2.4       ",
+            {
+                "text": "√5",
+                "partial": "2.236",
+                "visual": "@~/Example.png"
+            },
+            {
+                "text": "Ježko Divý",
+                "partial": "2.236",
+                "visual": "@../Example.png"
+            }
+        ]
+    },
+
+    {
+        "type": "pairs",
+        "visual": "@~/Example.png",
+        "sound": [
+            "@",
+            "@",
+            "@",
+            "@"
+        ],
+        "text": "Welcome To Pairs Question. Please pair the objects in the list above.",
+        "answer_detail": "Just because it is",
+        "pairs": [
+            [
+                "A1?",
+                "B1!"
+            ],
+            [
+                "A2?",
+                "B2!"
+            ],
+            [
+                "A3?",
+                "B3!"
+            ],
+            [
+                "A4?",
+                "B4!"
+            ],
+            [
+                "A5?",
+                "B5!"
+            ]
+        ]
+    },
+    {
+        "type": "filltext",
+        "case_sensitive": true,
+        "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??second?? incididunt ut labore et, Lorem ipsum ??First??"
+    },
+    {
+        "type": "fulltext",
+        "case_sensitive": false,
+        "list": [{
+            "visual": "@~/Example.png",
+            "sound": [{
+                    "title": "Audio super Pro 10",
+                    "credits": "Some Author or Licenser",
+                    "source": "@"
+                },
+                {
+                    "title": "Audio super Pro 10",
+                    "source": "@"
+                },
+                {
+                    "credits": "Some Author or License",
+                    "source": "@"
+                }
+            ],
+            "text": "Tu bude nejaké zadanie úlohy\nOdpovede\n[40, 50]cm\n125.4 gm/mol\n🏰🏰🏰🏰🏰\n\n1375\nTRUE\n\n10",
+            "case_sensitive": false,
+            "answers": [{
+                    "label": "Distance between A- B adaskjd haskdj haskjdh aksjdh aksjdh kasjdh aksjdh kajsdh kasjhdkajsdh akjsdh aksjd haksj dhaksjd haksjd haskjdh askjB",
+                    "value": [
+                        40.0,
+                        50
+                    ],
+                    "max_error": 0.7,
+                    "units": "cm"
+                },
+                {
+                    "label": "Some text",
+                    "value": [
+                        125.4
+                    ],
+                    "max_error": 0.7,
+                    "units": "g/mol"
+                },
+                {
+                    "label": "How many? aaaa aa\naaa\naaaa",
+                    "value": [
+                        5
+                    ],
+                    "max_error": 0,
+                    "units": "🏰"
+                },
+                {
+                    "label": "Pressure",
+                    "value": [
+                        1375
+                    ],
+                    "max_error": 50,
+                    "units": "kg\n------\nm^2"
+                },
+                {
+                    "case_sensitive": true,
+                    "label": "Zložte správne vetu :)",
+                    "value": [
+                        "Odpoveď v správnom poradí",
+                        "Answer"
+                    ],
+                    "fulltext": false,
+                    "characters": false,
+                    "words": false                
+                }
+            ]
+        } ]
+    }
+]

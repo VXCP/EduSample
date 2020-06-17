@@ -1,0 +1,100 @@
+{
+    "title": "Nikola Tesla",
+    "facts": [
+        {
+            "title": "* Narodenie",
+            "content": "10. Jul 1856",
+            "subcontent": "Belehrad, Srbsko",
+            "detail" : "Detail 1"
+        },
+        {
+            "title": "† Úmrtie",
+            "content": "7. Jan 1943",
+            "subcontent": "New York, NY USA",
+            "detail" : "Detail 1"
+        },
+        {
+            "title": "Zamestnanie",
+            "content": "Vedec",
+            "subcontent": "Fyzik, Konštruktér",
+            "detail" : "Detail 1"
+        }
+    ],
+
+    "brief": "Nikola Tesla bol srbský vynálezca a konštruktér mnohých elektrických strojov a prístrojov. Jeho patenty a práca formovali základ moderných systémov vrátane polyfázových energeticko-distribučných systémov a motorov na striedavý prúd, ktoré umožnili začiatok  Druhej priemyselnej revolúcie.",
+    "visual": {
+        "source": "@../Assets/nikola_tesla.jpg"
+    },
+    "quiz": ["@../Practice/SampleQuiz.json"],
+    "detail": [
+        "## Biografia\n",
+        "Nikola Tesla sa narodil 10. júla 1856 srbským",
+        "rodičom v dedine Smiljan blízko mesta Gospić ",
+        "v dnešnom Chorvátsku. Jeho otec Milutin Tesla,",
+        " bol srbský pravoslávny kňaz. Od detstva vynikal",
+        " talentom na prírodné vedy, študoval na univerzitách",
+        " v Grazi a v Prahe. V roku 1880 sa presťahoval do",
+        " Budapešti, kde pracoval v telegrafnej spoločnosti",
+        " a začal sa intenzívne zaoberať výskumom elektriny,",
+        " pričom prišiel na princíp striedavého prúdu.",
+        " O dva roky neskôr sa presťahoval do Paríža a v júni",
+        " 1884 sa trvalo usadil v Spojených štátoch (občianstvo tam získal",
+        " v roku 1891).",
+        "\n\n",
+        "Tesla začal v roku 1884 pracovať vo firme EDISON CO,",
+        " pretože od malička si predstavoval ako spolu s Edisonom",
+        " vynaliezajú rôzne vynálezy. Po nezhodách s Edisonom",
+        " súvisiacich hlavne s nedostatočným Teslovým finančným",
+        " ohodnotením v roku 1886 založil vlastnú firmu: Tesla Electric Light & Manufacturing.",
+        " Firma hlavne vyrábala a patentovala vylepšenia na oblúkové lampy.",
+        " Tesla mal však zakrátko nezhody s investormi, pretože chcel vyrábať striedavý prúd,",
+        " s čím nesúhlasili a vyhodili ho.",
+        " Nenašiel si prácu v elektrickom odbore a istý čas musel ako robotník kopať jamy.",
+        " V roku 1887 podpísal zmluvu s Edisonovým veľkým rivalom George Westinghouseom,",
+        " ktorého zaujali Teslove nápady a od ktorého tak obdržal 1 000 000 dolárov,",
+        "za ktoré si zariadil vlastné laboratórium. Pokračoval v ňom vo svojom výskume",
+        " striedavého prúdu a urobil v ňom aj mnoho iných objavov, napr. roku 1890 vynašiel",
+        " výbojkové žiarovky svietiace bez vlákna. Už roku 1891 sa začal zaoberať technológiou",
+        " rádiového prenosu a v roku 1893 ako prvý na svete verejne demonštroval rádiokomunikačný ",
+        "prístroj. Teslove objavy a vynálezy pokračovali aj v nasledujúcich rokoch, dal si prihlásiť",
+        " okolo 300 patentov. Mnoho jeho objavov vzniklo ako vedľajší produkt jeho primárnych",
+        " výskumov a niekedy si hneď neuvedomil ich budúci potenciál, kvôli čomu ich nepublikoval",
+        " a neskôr mu tak nebolo prisúdené jeho prvenstvo. Napr. už v roku 1887 ako prvý objavil",
+        " tzv. röntgenové žiarenie (pomenované po W. Röntgenovi, ktorý ho však \"znovuobjavil\"",
+        " až o 8 rokov neskôr), je dokonca možné, že objavil laser viac ako pol storočie",
+        " od jeho preukázaného objavu.",
+        "\n\n",
+        "V 90. rokoch narastali jeho konflikty s Edisonom v tzv. Vojne prúdov,",
+        " v ktorej sa horlivo diskutovalo o otázke vhodnosti použitia",
+        " jednosmerného alebo striedavého elektrického prúdu. Edison, ktorý chcel",
+        " mať monopol na distribúciu jednosmerného prúdu vynaložil veľa úsilia a ",
+        "financií, aby očiernil Teslov koncept, no nakoniec neuspel a v roku 1896 ",
+        "firma Westinghouse Electric Corporation uviedla do prevádzky veľkú elektráreň ",
+        "na Niagarských vodopádoch s rozvodným systémom využívajúcim Teslove ",
+        "transformátory napätia, ktoré zanedlho úplne vytlačili jednosmerné rozvody. \n",
+
+        " ``` \n",
+        "void main() {\n",
+        "  runApp(MaterialApp(\n",
+        "    home: Scaffold(\n",
+        "      body: Markdown(data: markdownData)\n",
+        "    ),\n",
+        "  ));\n",
+        "}\n",
+        "```\n\n",
+
+        "## Významné ocenenia\n",
+        "|Rok                                    |Ocenenie                             |\n",
+        "|---------------------------------------|-------------------------------------|\n",
+        "|1893                                   | Medaila Elliotta Cressona           |\n",
+        "|1916                                   | Edisonova medaila;                  |\n",
+        "|1934                                   | Medaila Johna Scotta                |\n",
+
+        "\n## Styling\n",
+        "Style text as _italic_, __bold__, ~~strikethrough~~, or `inline code`.\n",
+        "- Use bulleted lists\n",
+        "- To better clarify\n",
+        "- Your points\n",
+        " $\\omega = d\\phi / dt$"
+    ]
+}

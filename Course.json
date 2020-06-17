@@ -1,0 +1,21 @@
+{
+    "name" : "Example",
+    "authors": "SchlockApps",
+    "text_direction": "LTR",
+    "sections" :[
+            "Section: No.1",
+            [
+                "@./CourseList/Example.json",
+                "@./CourseList/NikolaTesla.json"
+            ],
+
+            "Testing",
+            [
+                "@./CourseList/TestInit.json",
+                "@./CourseList/Test1_1.json",
+                "@./CourseList/Test1.json",
+                "@./CourseList/Test2.json",
+                "@./CourseList/Test3.json"
+            ]
+    ]
+}
