@@ -4,6 +4,7 @@
         "source": "@~/Example.png",
         "position": "0.5:0.0"
     },
+    "quiz":["@../Practice/SampleQuizTest.json"],
     "facts": [
         {
             "title": "Icon",
@@ -47,7 +48,6 @@
     "visual": {
         "source": "@~/Example.png"
     },
-    "quiz":["@../Practice/SampleQuiz.json","@../Practice/SampleQuiz2.json"],
     "detail": [
         
         "# Detailed description\n",

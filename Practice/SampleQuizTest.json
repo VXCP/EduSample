@@ -1,0 +1,23 @@
+[{
+    "type": "choice",
+    "list": [
+        {
+            "text": "Zadanie otazky >> Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com)\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS",
+            "visual": "@~/Example.png",
+            "sound": "@",
+            "answer_detail": "Just because it is",
+            "true": [
+                "True is true 1<|>@~/Example.png",
+                "Kyselina 3-hydrogen fosforečnáaaaaaaaaaaaaaaaaaaaaaaaaaa<|>@~/Example.png",
+                "True 3<|>@~/Example.png",
+                "Ueeeee<|>@~/Example.png"
+            ],
+            "false": [
+                "Fake is 1<|>@~/Example.png",
+                "Fake 2<|>@~/Example.png",
+                "Fake 3<|>@~/Example.png",
+                "Fake 4<|>@~/Example.png"
+            ]
+        }
+    ]
+}]
