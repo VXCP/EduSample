@@ -13,10 +13,7 @@
                 "Ueeeee<|>@~/Example.png"
             ],
             "false": [
-                "Fake is 1<|>@~/Example.png",
-                "Fake 2<|>@~/Example.png",
-                "Fake 3<|>@~/Example.png",
-                "Fake 4<|>@~/Example.png"
+                "$$Fake$$"
             ]
         }
     ]
