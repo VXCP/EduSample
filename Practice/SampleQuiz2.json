@@ -1,6 +1,7 @@
 [{
         "type": "choice",
-        "list": [{
+        "list": [
+            {
                 "text": "Zadanie otazky >> Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com)\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS",
                 "visual": "@~/Example.png",
                 "sound": "@",
