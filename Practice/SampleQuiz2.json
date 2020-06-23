@@ -26,8 +26,9 @@
                     "Kyselina 3-hydrogen fosforečná<|>@~/Example.png",
                     "True 3<|>@~/Example.png",
                     "Ueeeee<|>@~/Example.png",
+                    "$$2*b$$",
                     {
-                        "text": "Helllo",
+                        "text": "$$Hello$$",
                         "image": "@~/Example.png",
                         "sound": "~/Somewhere.mp3"
                     }
@@ -111,7 +112,7 @@
     },
     {
         "type": "sort",
-        "text": "Welcome To Sort Question. Please sort the following constants by value from __highest__ to __lowest__",
+        "text": "Welcome To Sort Question. Please sort the following constants by value $$15\\dot15$$ from __highest__ to __lowest__ $$Test$$ :D",
         "sort": [
             "9         ",
             "π         | 3.15",
