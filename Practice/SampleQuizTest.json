@@ -2,12 +2,12 @@
     "type": "choice",
     "list": [
         {
-            "text": "Zadanie otazky >> Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com)\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS",
+            "text": "Zadanie otazky >> $$\\frac{Hello}{World}$$ Second $$5\\omegaa+b=c^{2}$$  WTF $$\\sqrt{\\frac{a}{b}}$$Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com)\nS\nS\nS\nS\nS\nS",
             "visual": "@~/Example.png",
             "sound": "@",
             "answer_detail": "Just because it is",
             "true": [
-                "True is true 1<|>@~/Example.png",
+                "$$a\\dotb$$",
                 "Kyselina 3-hydrogen fosforečnáaaaaaaaaaaaaaaaaaaaaaaaaaa<|>@~/Example.png",
                 "True 3<|>@~/Example.png",
                 "Ueeeee<|>@~/Example.png"
