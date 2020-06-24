@@ -2,7 +2,7 @@
     "type": "choice",
     "list": [
         {
-            "text": "Zadanie otazky >> $$\\frac{Hello}{World}$$ Second $$5\\omega a+b=c^{2}$$  WTF $$\\sqrt{\\frac{a}{b}}$$ $\\sqrt{\\frac{a}{b}}$ Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com) \nS\nS\nS\nS\nS\nS",
+            "text": "Zadanie otazky >> $$\\frac{Hello}{World}$$ Second $$5\\omega a+b=c^{2}$$  WTF $$\\sqrt{\\frac{a}{b}}$$ $\\sqrt{\\frac{a}{b}}$ Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com) That is very intersting because i have a problem with new lines sooooooo",
             "visual": "@~/Example.png",
             "sound": "@",
             "answer_detail": "Just because it is",
