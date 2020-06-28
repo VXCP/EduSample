@@ -1,5 +1,6 @@
 {
     "title": "Lecture Ex.",
+    "thumbnail": "@../Assets/nikola_tesla.png",
     "hierarchy": {
         "source": "@~/Example.png",
         "position": "0.5:0.0"

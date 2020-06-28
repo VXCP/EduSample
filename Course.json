@@ -2,6 +2,7 @@
     "name" : "Example",
     "authors": "SchlockApps",
     "text_direction": "LTR",
+    "thumbnail" : "@./Assets/nikola_tesla.jpg",
     "sections" :[
             "Section: No.1",
             [
