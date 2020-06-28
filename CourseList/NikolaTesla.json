@@ -1,5 +1,6 @@
 {
     "title": "Nikola Tesla",
+    "thumbnail": "@../Assets/nikola_tesla.jpg",
     "quiz":["@../Practice/SampleQuiz.json","@../Practice/SampleQuiz2.json"],
     "facts": [
         {
