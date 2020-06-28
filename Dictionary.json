@@ -4,16 +4,12 @@
             "Style",
             "Double"
         ],
-        "definition":[
-            "Thath is definition number one wohoo $$Math Equation in Definition$$"
-        ]
+        "definition":"Thath is definition number one wohoo $$Math Equation in Definition$$"
     },
     {
         "words": [
             "Your points"
         ],
-        "definition":[
-            "Thath is definition number one wohoo $$\\omega \\frac{A}{B}$$"
-        ]
+        "definition":"Thath is definition number one wohoo $$\\omega \\frac{A}{B}$$"
     }
 ]
