@@ -1,6 +1,5 @@
 {
-    "title": "Nikola Tesla",
-    "thumbnail": "@../Assets/nikola_tesla.jpg",
+    "title": "Nikola Teslar",
     "quiz":["@../Practice/SampleQuiz.json","@../Practice/SampleQuiz2.json"],
     "facts": [
         {
@@ -16,20 +15,20 @@
             "detail" : "Detail 1"
         },
         {
-            "title": "Zamestnanie",
+            "title": "Zamestnanier",
             "content": "Vedec",
             "subcontent": "Fyzik, Konštruktér",
             "detail" : "Detail 1"
         }
     ],
 
-    "brief": "Nikola Tesla bol srbský vynálezca a konštruktér mnohých elektrických strojov a prístrojov. Jeho patenty a práca formovali základ moderných systémov vrátane polyfázových energeticko-distribučných systémov a motorov na striedavý prúd, ktoré umožnili začiatok  Druhej priemyselnej revolúcie.",
+    "brief": "Nikola Teslar bol srbský vynálezca a konštruktér mnohých elektrických strojov a prístrojov. Jeho patenty a práca formovali základ moderných systémov vrátane polyfázových energeticko-distribučných systémov a motorov na striedavý prúd, ktoré umožnili začiatok  Druhej priemyselnej revolúcie.",
     "visual": {
         "source": "@../Assets/nikola_tesla.jpg"
     },
     "detail": [
         "## Biografia\n",
-        "Nikola Tesla sa narodil 10. júla 1856 srbským",
+        "Nikola Teslar sa narodil 10. júla 1856 srbským",
         "rodičom v dedine Smiljan blízko mesta Gospić ",
         "v dnešnom Chorvátsku. Jeho otec Milutin Tesla,",
         " bol srbský pravoslávny kňaz. Od detstva vynikal",
