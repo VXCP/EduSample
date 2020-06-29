@@ -1,5 +1,6 @@
 {
-    "title": "Nikola Teslar",
+    "title": "Nikola Teslarik",
+    "thumbnail": "@../Assets/nikola_tesla.jpg",
     "quiz":["@../Practice/SampleQuiz.json","@../Practice/SampleQuiz2.json"],
     "facts": [
         {
@@ -15,20 +16,20 @@
             "detail" : "Detail 1"
         },
         {
-            "title": "Zamestnanier",
+            "title": "Zamestnanierik",
             "content": "Vedec",
             "subcontent": "Fyzik, Konštruktér",
             "detail" : "Detail 1"
         }
     ],
 
-    "brief": "Nikola Teslar bol srbský vynálezca a konštruktér mnohých elektrických strojov a prístrojov. Jeho patenty a práca formovali základ moderných systémov vrátane polyfázových energeticko-distribučných systémov a motorov na striedavý prúd, ktoré umožnili začiatok  Druhej priemyselnej revolúcie.",
+    "brief": "Nikola Teslarik bol srbský vynálezca a konštruktér mnohých elektrických strojov a prístrojov. Jeho patenty a práca formovali základ moderných systémov vrátane polyfázových energeticko-distribučných systémov a motorov na striedavý prúd, ktoré umožnili začiatok  Druhej priemyselnej revolúcie.",
     "visual": {
         "source": "@../Assets/nikola_tesla.jpg"
     },
     "detail": [
         "## Biografia\n",
-        "Nikola Teslar sa narodil 10. júla 1856 srbským",
+        "Nikola Teslarik sa narodil 10. júla 1856 srbským",
         "rodičom v dedine Smiljan blízko mesta Gospić ",
         "v dnešnom Chorvátsku. Jeho otec Milutin Tesla,",
         " bol srbský pravoslávny kňaz. Od detstva vynikal",

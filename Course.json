@@ -1,8 +1,8 @@
 {
-    "name" : "Exampler",
-    "authors": "SchlockAppsik",
+    "name" : "Example",
+    "authors": "SchlockAppsiq",
     "text_direction": "LTR",
-    "thumbnail" : "@./Assets/bubblesort.gif",
+    "thumbnail" : "@./Assets/nikola_tesla.jpg",
     "sections" :[
             "Section: No.1",
             [
