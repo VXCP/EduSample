@@ -8,7 +8,8 @@
     {
         "text": "2.4",
         "visual": "@~/Assets/quicksort.gif",
-        "sound": "@../Sounds/bicycle-hown-1.wav"
+        "sound": "@../Sounds/harmonicaCoin.mp3"
+
     },
     {
         "text": "√5",
