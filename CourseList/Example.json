@@ -5,7 +5,7 @@
         "source": "@~/Example.png",
         "position": "0.5:0.0"
     },
-    "quiz":["@../Practice/SampleQuizTest.json"],
+    "quiz":["@../Practice/SampleQuiz.json"],
     "facts": [
         {
             "title": "Icon",
