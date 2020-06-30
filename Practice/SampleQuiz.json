@@ -7,17 +7,20 @@
     "e         | 2.8",
     {
         "text": "2.4",
-        "visual": "@~/Assets/quicksort.gif"
+        "visual": "@~/Assets/quicksort.gif",
+        "sound": "@../Sounds/bicycle-hown-1.wav"
     },
     {
         "text": "√5",
         "partial": "2.236",
-        "visual": "@~/Example.png"
+        "visual": "@~/Example.png",
+        "sound": "@../Sounds/zipclic.flac"
     },
     {
         "text": "Ježko Divý",
         "partial": "2.236",
-        "visual": "@../Assets/quicksort.gif"
+        "visual": "@../Assets/quicksort.gif",
+        "sound": "@~/Sounds/harmonicaCoin.mp3"
     }
 ]
 }
