@@ -5,7 +5,10 @@
     "9         ",
     "π         | 3.15",
     "e         | 2.8",
-    "2.4       ",
+    {
+        "text": "2.4",
+        "visual": "@~/Assets/quicksort.gif"
+    },
     {
         "text": "√5",
         "partial": "2.236",
