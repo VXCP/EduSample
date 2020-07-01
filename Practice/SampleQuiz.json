@@ -5,6 +5,22 @@
         {
             "text": "Zadanie otazky >> $$\\frac{Hello}{World}$$ Second $$5\\omega a+b=c^{2}$$  WTF $$\\sqrt{\\frac{a}{b}}$$ Rovnica $\\sqrt{\\frac{a}{b}}$ Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com) That is very intersting because i have a problem with new lines sooooooo",
             "visual": "@~/Example.png",
+            "sound" : [{
+                            "title": "Harmonica Coin 1",
+                            "credits": "Some Author or License 1",
+                            "source": "@~Sounds/harmonicaCoin.mp3"
+                        },
+                        {
+                            "title": "Harmonica Coin 2",
+                            "credits": "Some Author or License 2",
+                            "source": "@~Sounds/harmonicaCoin.mp3"
+                        },
+                        {
+                            "title": "Harmonica Coin 3",
+                            "credits": "Some Author or License 3",
+                            "source": "@~Sounds/harmonicaCoin.mp3"
+                        }
+                    ],
             "answer_detail": "Just because it is",
             "true": [
                 {
