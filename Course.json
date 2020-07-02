@@ -8,7 +8,8 @@
             [
                 "@./CourseList/Example.json",
                 "@./CourseList/NikolaTesla.json",
-                "@./CourseList/FragmentShader.json"
+                "@./CourseList/FragmentShader.json",
+                "@./CourseList/ProkaryotickaBunka.json"
             ],
 
             "Testing",
