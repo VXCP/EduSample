@@ -40,6 +40,11 @@
                     "text" : "Nikola Tesla",
                     "image": "@~/Assets/nikola_tesla.jpg",
                     "sound": "@~/Sounds/sd_0.wav"
+                },
+                {
+                    "text" : "Nikola Tesla",
+                    "image": "@~/Assets/nikola_tesla.jpg",
+                    "sound": "@~/Sounds/sd_0.wav"
                 }
 
             ],
