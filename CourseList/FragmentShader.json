@@ -22,7 +22,7 @@
     ],
 
     "brief": [
-        "Fragment shader is the last programmable part of an OpenGL pipeline and it process rasterized Fragments from Rasterization stage."
+        "Fragment shader is the last programmable part of an OpenGL pipeline, which process rasterized Fragments from Rasterization stage."
     ],
     "visual": {
         "source": "@~/Assets/fragment_animation.gif"
