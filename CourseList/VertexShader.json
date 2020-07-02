@@ -1,6 +1,6 @@
 {
     "title": "Vertex Shader",
-    "thumbnail": "@../Assets/VertexShaderThumbnail.jpg",
+    "thumbnail": "@../Assets/VertexShaderThumbnail.png",
     "hierarchy": {
         "source": "@~/Assets/vertex_shader_pipeline.png",
         "position": "0.5:0.17"
