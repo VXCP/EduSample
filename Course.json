@@ -8,6 +8,7 @@
             [
                 "@./CourseList/Example.json",
                 "@./CourseList/NikolaTesla.json",
+                "@./CourseList/VertexShader.json",
                 "@./CourseList/FragmentShader.json",
                 "@./CourseList/ProkaryotickaBunka.json"
             ],

@@ -1,0 +1,95 @@
+{
+    "title": "Vertex Shader",
+    "thumbnail": "@../Assets/nikola_tesla.jpg",
+    "sound" : [{
+        "title": "Harmonica Coin 1",
+        "credits": "Some Author or License 1",
+        "source": "@~/Sounds/harmonicaCoin.mp3"
+    },
+    {
+        "title": "Harmonica Coin 2",
+        "credits": "Some Author or License 2",
+        "source": "@~/Sounds/harmonicaCoin.mp3"
+    },
+    {
+        "title": "Harmonica Coin 3",
+        "credits": "Some Author or License 3",
+        "source": "@../Sounds/alarm.ogg"
+    }
+],
+    "hierarchy": {
+        "source": "@~/Assets/vertex_shader_pipeline.png",
+        "position": "0.5:0.1"
+    },
+    "quiz":["@../Practice/SampleQuiz.json"],
+    "facts": [
+        {
+            "title": "Input",
+            "subcontent" : "Basic Text",
+            "content": "Vertices"
+        },
+        {
+            "title": "Programmable",
+            "subcontent": "Basic Text",
+            "content" : "Yes"
+        },
+        {
+            "title": "Output",
+            "subcontent" : "Basic Text",
+            "content": "Transform vertices"
+        }
+    ],
+
+    "brief": [
+        "Fragment shader is the first programmable part of an OpenGL pipeline and it describes how to handle vertices"
+    ],
+    "visual": {
+        "source": "@~/Assets/vertex_shader_info.png"
+    },
+    "detail": [
+        "# About \n ",
+        "A vertex shader operates on individual vertices, one vertex at a time. The shader has no knowledge of the other vertices that make up the graphical primitive, and has no clue of what type of primitive the vertex belongs to. For each input vertex, this shader outputs a single vertex. Each vertex has a set of user defined input attributes, for instance, position, normal vector, and texture coordinates. Vertex shaders also have access to uniform variables, which act as read-only global variables for all vertices in a draw call. Besides user defined variables, GLSL defines a set of per vertex attributes:\n",
+        " ``` \n",
+        "in  int   gl_VertexID;\n",
+        "in  int   gl_InstanceID;",
+        " ``` \n",
+
+        "The vertex shader receives the input attributes, and outputs vertices, computing their attributes. The following intrinsic output attributes are available for writing in a vertex shader:\n",
+        " ``` \n",
+        " out gl_PerVertex { \n",
+        " vec4  gl_Position;\n",
+        " float gl_PointSize;\n",
+        " float gl_ClipDistance[];\n",
+        "};\n",
+        " ``` \n",
+        "Writing in any of these is optional, however, some fixed function steps after the vertex shader expect gl_Position to be written, as this variable is intented to store the homogenous coordinates of the output vertex’s position. Furthermore, the shader can output user-defined per vertex variables.",
+        
+        " ``` \n",
+       
+       "#version 410\n",
+       "layout (std140) uniform Matrices {\n",
+    "mat4 projModelViewMatrix;\n",
+    "mat3 normalMatrix;\n",
+"};\n\n",
+ 
+"in vec3 position;\n",
+"in vec3 normal;\n",
+"in vec2 texCoord;\n\n",
+ 
+"out VertexData {\n",
+"    vec2 texCoord;\n",
+"    vec3 normal;\n",
+"} VertexOut;\n\n",
+ 
+"void main()\n",
+"{\n",
+"    VertexOut.texCoord = texCoord;\n",
+"    VertexOut.normal = normalize(normalMatrix * normal);\n",    
+"    gl_Position = projModelViewMatrix * vec4(position, 1.0);\n",
+"}\n",
+" ``` \n",
+"The above vertex shader receives three user defined attributes per vertex: position, normal, and texCoord. It receives a uniform block named Matrices containing two common matrices for vertex and normal transformation.\n",
+"The outputs of the vertex shader are both the user defined attributes, texCoordOut and normal, and the intrinsic attribute gl_Position. Note that the output variables are also enclosed in a named block.\n",
+"The outputs are computed in the main function. Every type of shader must have a main function, and can define other auxiliary functions as well, in a way similar  to a C program.\n"
+]
+}
