@@ -7,7 +7,8 @@
             "Section: No.1",
             [
                 "@./CourseList/Example.json",
-                "@./CourseList/NikolaTesla.json"
+                "@./CourseList/NikolaTesla.json",
+                "@./CourseList/FragmentShader.json"
             ],
 
             "Testing",
