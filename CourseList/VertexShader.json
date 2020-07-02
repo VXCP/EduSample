@@ -9,11 +9,13 @@
     "facts": [
         {
             "title": "Input",
-            "content": "Vertices"
+            "content": "@~/Assets/Vertex-input.png",
+            "subcontent": "Vertices"
         },
         {
             "title": "Output",
-            "content": "Transform vertices"
+            "content": "@~/Assets/Vertex-output.png",
+            "subcontent": "Transformed vertices"
         },
         {
             "title": "Programmable",
