@@ -6,6 +6,33 @@
         "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??second?? incididunt ut labore et, Lorem ipsum ??First??"
     },
     {
+        "type": "pairs",
+        "visual": ["@~/Example.png", "@~/Example.png"],
+        "text": "Welcome To Pairs Question. Please pair the objects in the list above.",
+        "answer_detail": "Just because it is",
+        "pairs": [
+            [
+                "A1?",
+                "B1!"
+            ],
+            [
+                "A2?",
+                "B2!"
+            ],
+            [
+                "A3?",
+                "B3!"
+            ],
+            [
+                "A4?",
+                "B4!"
+            ],
+            [
+                "A5?",
+                "B5!"
+            ]
+        ]},
+    {
         "type": "sort",
         "text": "Welcome To Sort Question. Please sort the following constants by value $$15\\dot15$$ from __highest__ to __lowest__ $$Test$$ :D",
         "sort": [
