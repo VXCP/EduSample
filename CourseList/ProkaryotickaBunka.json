@@ -1,6 +1,6 @@
 {
     "title": "Prokaryotická Bunka",
-    "thumbnail": "@../Assets/Eukaryotickabunka.json",
+    "thumbnail": "@../Assets/ProkaryoteThumbnail.json",
     "facts": [
         {
             "title": "Povrch",
