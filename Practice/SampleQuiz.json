@@ -1,8 +1,39 @@
 [
-{
+
+    {
+        "type": "sort",
+        "text": "Welcome To Sort Question. Please sort the following constants by value $$15\\dot15$$ from __highest__ to __lowest__ $$Test$$ :D",
+        "sort": [
+            "9         ",
+            "π         | 3.15",
+            "e         | 2.8",
+            {
+                "text": "2.4",
+                "visual": "@~/Assets/quicksort.gif",
+                "sound": "@../Sounds/harmonicaCoin.mp3"
+    
+            },
+            {
+                "text": "√5",
+                "partial": "2.236",
+                "visual": "@~/Example.png",
+                "sound": "@../Sounds/zipclic.flac"
+            },
+            {
+                "text": "Ježko Divý",
+                "partial": "2.236",
+                "visual": "@../Assets/quicksort.gif",
+                "sound": "@~/Sounds/harmonicaCoin.mp3"
+            }
+        ]
+    },
+    {
     "type": "choice",
     "list": [
         {
+            "imageFit": "fill",
+            "minTruth": 1,
+            "choicesCount": [2,4,6,8],
             "text": "Zadanie otazky >> $$\\frac{Hello}{World}$$ Second $$5\\omega a+b=c^{2}$$ WTF $$\\sqrt{\\frac{a}{b}}$$ Rovnica $\\sqrt{\\frac{a}{b}}$ Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com) That is very intersting because i have a problem with new lines sooooooo well at all noone knows what is going on but lol? LOOOOOOOOOOOOOOOL? Whaaaat is that noooone know lalalalala laaaaaaaaaaaaa Blue oyster what Mauris elementum mauris vitae tortor. In convallis. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Donec quis nibh at felis congue commodo. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris metus. Maecenas libero. Et harum quidem rerum facilis est et expedita distinctio. Mauris dictum facilisis augue. Ut tempus purus at lorem. Vestibulum fermentum tortor id mi. ",
             "visual": "@~/Example.png",
             "sound" : [{
