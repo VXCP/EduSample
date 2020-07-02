@@ -2,7 +2,7 @@
     "title": "Fragment Shader",
     "thumbnail": "@../Assets/fragment-thumbnail.jpg",
     "hierarchy": {
-        "source": "@~/Assets/VertexShaderThumbnail.png",
+        "source": "@~/Assets/fragment_shader_pipeline.png",
         "position": "0.5:0.8"
     },
     "quiz":["@../Practice/SampleQuiz.json"],
