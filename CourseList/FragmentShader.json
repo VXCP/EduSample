@@ -18,7 +18,7 @@
     }
 ],
     "hierarchy": {
-        "source": "@~/fragment_shader_pipeline.png",
+        "source": "@~/Assets/fragment_shader_pipeline.png",
         "position": "0.5:0.0"
     },
     "quiz":["@../Practice/SampleQuiz.json"],
@@ -42,7 +42,7 @@
         "Fragment shader is first programmable part of an OpenGL pipeline and it describes how to handle vertices"
     ],
     "visual": {
-        "source": "@~/fragment_animation.gif"
+        "source": "@~/Assets/fragment_animation.gif"
     },
     "detail": [
         "# About \n ",
