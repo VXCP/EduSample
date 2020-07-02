@@ -1,15 +1,26 @@
 [
 
     {
+        "type": "filltext",
+        "case_sensitive": true,
+        "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??second?? incididunt ut labore et, Lorem ipsum ??First??"
+    },
+    {
         "type": "sort",
         "text": "Welcome To Sort Question. Please sort the following constants by value $$15\\dot15$$ from __highest__ to __lowest__ $$Test$$ :D",
         "sort": [
             {
-                "text": "$$Zooolo$$"
-    
+                "text": "$$Zooolo$$",
+                "partial" : "2.8"
             },
-            "π         | 3.15",
-            "e         | 2.8",
+            {
+                "text": "π",
+                "partial" : "2.8"
+            },
+            {
+                "text": "e",
+                "partial" : "2.8"
+            },
             {
                 "text": "2.4",
                 "visual": "@~/Assets/quicksort.gif",
