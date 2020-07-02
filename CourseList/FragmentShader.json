@@ -1,22 +1,6 @@
 {
     "title": "Fragment Shader",
     "thumbnail": "@../Assets/fragment-thumbnail.jpg",
-    "sound" : [{
-        "title": "Harmonica Coin 1",
-        "credits": "Some Author or License 1",
-        "source": "@~/Sounds/harmonicaCoin.mp3"
-    },
-    {
-        "title": "Harmonica Coin 2",
-        "credits": "Some Author or License 2",
-        "source": "@~/Sounds/harmonicaCoin.mp3"
-    },
-    {
-        "title": "Harmonica Coin 3",
-        "credits": "Some Author or License 3",
-        "source": "@../Sounds/alarm.ogg"
-    }
-],
     "hierarchy": {
         "source": "@~/Assets/fragment_shader_pipeline.png",
         "position": "0.5:0.0"
@@ -28,18 +12,17 @@
             "content": "Fragment"
         },
         {
-            "title": "Programmable",
-            "content" : "Yes"
+            "title": "Output",
+            "content": "Colored fragment"
         },
         {
-            "title": "Output",
-            "content": "Modified fragment"
+            "title": "Programmable",
+            "content" : "@Icons.check"
         }
     ],
 
     "brief": [
-        "This section aims to fragment shader details. \n",
-        "Fragment shader is first programmable part of an OpenGL pipeline and it describes how to handle vertices"
+        "Fragment shader is the last programmable part of an OpenGL pipeline and it describes how to handle vertices"
     ],
     "visual": {
         "source": "@~/Assets/fragment_animation.gif"
