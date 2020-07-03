@@ -1,0 +1,42 @@
+{
+    "title": "Prokaryotická Bunka",
+    "thumbnail": "@../Assets/ProkaryoteThumbnail.png",
+    "facts": [
+        {
+            "title": "Povrch",
+            "content": "Bunková stena"
+        },
+        {
+            "title": "Výskyt",
+            "content": "Jednobunké organizmy",
+            "subcontent" :"Sinice, Archeóny.."
+        },
+        {
+            "title" : "Veľkosť",
+            "content": "1-2 µm"
+        }
+    ],
+
+    "brief": "Prokaryotické bunky tvoria výhradne jednobunkové organizmi, akými sú baktérie, archeóny a sinice. Taktiež sú menšie, jednoduchšie a fylogeneticky mladšie ako eukaryotické bunky.",
+    "visual": {
+        "source": "@../Assets/Prokaryote.png"
+    },
+    "detail": [
+        "## Nukleoid\n",
+        "Jadro (nukleoid) prokaryotickej bunky nie je oddelené jadrovou membránou. Tvorí ho jedna kruhová (neukončená) molekula DNA, ktorá je prichytená k vnútornej strane cytoplazmatickej membrány.",
+        "Nukleoid sa často nazýva aj nepravé jadro alebo prokaryon. Z genetického hľadiska je to chromozóm, avšak je to len holá DNA, bez histónov a kyslých bielkovín.\n",
+
+        "\n## Cytoplazma\n",
+        "Cytoplazma tvorí vnútorné prostredie bunky, kde sa nachádzajú ďalšie bunkové organely a __inklúzie__. Spolu s cytoplazmatickou membránou prostredie pre metabolické deje\n",
+        
+        "## Cytoplazmatická membrána\n",
+        "Oddeľuje obsah bunky od vonkajšieho prostredia a zároveň funguje, ako osmotická bariéra.",
+        "Pri baktériach schopných fotosyntéze nahrádza aj funkciu chloroplastov a podieľa sa na procese dýchania.\n",
+        "Na cytoplazmatickej membráne sa tiež nachádza vchlipenina (__Mezozóm__), v ktorej sa nachádzajú enzýmy zúčastňujúce sa na fosforylácii a syntéze ATP.\n",
+
+        "## Bunková stena\n",
+        "Bunkový povrch tvorí bunková stena, ktorá na jej povrchu vytvára slizové púzdro (kapsulu), pozostávajúce z hydratovanej vrstvy polysacharidov, lipidov a bielkovín, ktoré zvyšuje odolnosť bunky",
+        "Bakteriálna bunková stena sa skladá z mureínu, resp. pseudomureínu u archeónov. Bunková stena je priepustná, pórovitá,",
+        "dáva bunke tvar a chráni ju pred vysokým osmotickým tlakom, ktorý vytvára vnútorné prostredie bunky."
+    ]
+}

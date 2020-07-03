@@ -10,7 +10,8 @@
                 "@./CourseList/NikolaTesla.json",
                 "@./CourseList/VertexShader.json",
                 "@./CourseList/FragmentShader.json",
-                "@./CourseList/ProkaryotickaBunka.json"
+                "@./CourseList/ProkaryotickaBunka.json",
+                "@./CourseList/Fotosynteza.json"
             ],
 
             "Testing",
