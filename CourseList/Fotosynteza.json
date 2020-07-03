@@ -58,11 +58,10 @@
          
         "## Fotosystém II\n",
         "Uskutočňuje 2.svetelnú reakciu nazývanú aj __Fotolýzu vody__\n",
-        "$$\\ce{2H20 -> 2H+ + 2 OH}$$\n",
+        "$$\\ce{2H2O -> 2H+ + 2 OH}$$\n",
         "$$\\ce{NADP+ -> NADP + H+ }$$\n",
         "$$\\ce{2OH- -> 2OH + 2e-}$$\n",
-        "$$\\ce{2OH- -> H20 + 1/2O2}$$\n",
-        "$$\\ce{2OH- -> H20 + 1/2O2}$$\n",
+        "$$\\ce{2OH- -> H2O + 1/2O2}$$\n",
         "$$\\ce{ADP + H3PO4 -> ATP + H20}$$"
     ]
 }
