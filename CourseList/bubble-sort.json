@@ -1,0 +1,93 @@
+{
+    "title": "Bubble sort",
+    "thumbnail": "@~/Assets/BubbleSortThumbnail.png",
+    "quiz":["@~/Practice/SampleQuiz.json"],
+    "facts": [
+        {
+            "title": "Data structure",
+            "content" : "Array"
+        },
+                {
+            "title": "Complexity",
+            "subcontent" : "Average",
+            "content": "$O(nlogn)$"
+        },
+        {
+            "title": "Complexity",
+            "subcontent" : "Worst",
+            "content": "$O(n^{2})$"
+        }
+    ],
+
+    "brief": [
+        "__Bubble Sort__, sometimes referred to as sinking sort, is a **simple sorting algorithm** ",
+        "that repeatedly steps through the list, compares adjacent elements and swaps ",
+        "them if they are in the wrong order. The pass through the list is repeated ",
+        "until the list is sorted. The algorithm, which is a comparison sort ",
+        "is named for the way smaller or larger elements \"bubble\" to the top of the list."
+    ],
+    "visual": {
+        "source": "@~/Assets/bubblesort.gif"
+    },
+    "detail": [
+        "## Performance\n",
+        "Bubble sort has a worst-case and average complexity of О(n2), where n is the number of items being sorted. ",
+        "Most practical sorting algorithms have substantially better worst-case or average complexity, ",
+        "often O(n log n). Even other О(n2) sorting algorithms, such as insertion sort, generally run faster ",
+        "than bubble sort, and are no more complex. Therefore, bubble sort is not a practical sorting algorithm.\n\n",
+
+        "The only significant advantage that bubble sort has over most other algorithms, even quicksort, ",
+        " but not insertion sort, is that the ability to detect that the list is sorted efficiently ",
+        " is built into the algorithm. When the list is already sorted (best-case), the complexity of bubble sort ",
+        " is only $O(n)$. By contrast, most other algorithms, even those with better average-case complexity, ",
+        " perform their entire sorting process on the set and thus are more complex. However, not only does ",
+        " insertion sort share this advantage, but it also performs better on a list that is substantially sorted ",
+        " (having a small number of inversions).\n\n",
+        "Bubble sort should be avoided in the case of large collections.\n",
+        "It will not be efficient in the case of a reverse-ordered collection.\n\n",
+
+        "## Step-by-step example\n",
+        "Take an array of numbers \" 5 1 4 2 8\", and sort the array from lowest number to",
+        " greatest number using bubble sort. In each step, elements written in bold are being compared.\n",
+        "Three passes will be required;\n\n",
+
+        "### First Pass\n",
+        "( **5 1** 4 2 8 ) → ( **1 5** 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1.\n\n",
+        "( 1 **5 4** 2 8 ) → ( 1 **4 5** 2 8 ), Swap since 5 > 4\n\n",
+        "( 1 4 **5 2** 8 ) → ( 1 4 **2 5** 8 ), Swap since 5 > 2\n\n",
+        "( 1 4 2 **5 8** ) → ( 1 4 2 **5 8** ), Now, since these elements are already in order (8 > 5), algorithm does not swap them.\n\n",
+
+        "### Second Pass\n",
+        "( **1 4** 2 5 8 ) → ( **1 4** 2 5 8 )\n\n",
+        "( 1 **4 2** 5 8 ) → ( 1 **2 4** 5 8 ), Swap since 4 > 2\n\n",
+        "( 1 2 **4 5** 8 ) → ( 1 2 **4 5** 8 )\n\n",
+        "( 1 2 4 **5 8** ) → ( 1 2 4 **5 8** )\n\n",
+
+        "Now, the array is already sorted, but the algorithm does not know if it is completed. The algorithm needs one **whole** pass without **any** swap to know it is sorted.\n\n",
+
+        "### Third Pass\n",
+        "( **1 2** 4 5 8 ) → ( **1 2** 4 5 8 )\n\n",
+        "( 1 **2 4** 5 8 ) → ( 1 **2 4** 5 8 )\n\n",
+        "( 1 2 **4 5** 8 ) → ( 1 2 **4 5** 8 )\n\n",
+        "( 1 2 4 **5 8** ) → ( 1 2 4 **5 8** )\n\n",
+
+        "## Implementation\n",
+        "The bubble sort algorithm can be optimized by observing that the n-th pass finds the n-th largest element and puts it into its final place. So, the inner loop can avoid looking at the last n − 1 items when running for the n-th time:\n",
+        "```",
+        "procedure bubbleSort(A : list of sortable items)\n",
+        "    n := length(A)\n",
+        "    repeat\n",
+        "        swapped := false\n",
+        "        for i := 1 to n-1 inclusive do\n",
+        "            /* if this pair is out of order */\n",
+        "            if A[i-1] > A[i] then\n",
+        "                /* swap them and remember something changed */\n",
+        "                swap(A[i-1], A[i])\n",
+        "                swapped := true\n",
+        "            end if\n",
+        "        end for\n",
+        "until not swapped\n",
+        "end procedure\n",
+        "```"
+    ]
+}

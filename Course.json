@@ -4,18 +4,19 @@
     "text_direction": "LTR",
     "thumbnail" : "@./Assets/nikola_tesla.jpg",
     "sections" :[
-            "Section: No.1",
+            "Mixed Section",
             [
-                "@./CourseList/Example.json",
                 "@./CourseList/NikolaTesla.json",
                 "@./CourseList/VertexShader.json",
+                "@./CourseList/bubble-sort.json",
                 "@./CourseList/FragmentShader.json",
                 "@./CourseList/ProkaryotickaBunka.json",
                 "@./CourseList/Fotosynteza.json"
             ],
 
-            "Testing",
+            "Section No.2",
             [
+                "@./CourseList/Example.json",
                 "@./CourseList/TestInit.json",
                 "@./CourseList/Test1_1.json",
                 "@./CourseList/Test1.json",
