@@ -74,29 +74,12 @@
         "na Niagarských vodopádoch s rozvodným systémom využívajúcim Teslove ",
         "transformátory napätia, ktoré zanedlho úplne vytlačili jednosmerné rozvody. \n",
 
-        " ``` \n",
-        "void main() {\n",
-        "  runApp(MaterialApp(\n",
-        "    home: Scaffold(\n",
-        "      body: Markdown(data: markdownData)\n",
-        "    ),\n",
-        "  ));\n",
-        "}\n",
-        "```\n\n",
-
         "## Významné ocenenia\n",
         "|Rok                                    |Ocenenie                             |\n",
         "|---------------------------------------|-------------------------------------|\n",
         "|1893                                   | Medaila Elliotta Cressona           |\n",
         "|1916                                   | Edisonova medaila;                  |\n",
-        "|1934                                   | Medaila Johna Scotta                |\n",
+        "|1934                                   | Medaila Johna Scotta                |\n"
 
-        "\n## Styling\n",
-        "Style text as _italic_, __bold__, ~~strikethrough~~, or `inline code`.\n",
-        "- Use bulleted lists\n",
-        "- To better clarify\n",
-        "- Your points\n",
-        "- To Better Clarify\n\n",
-        " $\\omega = d\\phi / dt$"
     ]
 }
