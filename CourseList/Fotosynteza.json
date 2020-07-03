@@ -12,6 +12,7 @@
         },
         {
             "title" : "Organela",
+            "content": "@~/Assets/chloroplast.jpg",
             "subcontent": "Chloroplast"
         }
     ],
@@ -54,7 +55,7 @@
         "Uskutočňuje 1.svetelnú reakciu (__Fotofosforyláciu__) aktivovanú fotónmi do 730nm.",
         "_O _cyklickej_ fosforylácii hovoríme vtedy, ak sa nabitý elektrón odovzdáva reagujúcim zlúčeninam, pričom sa oxiduje a je znovu schopný prijať další elektrón. Naopak _necyklická_ fosforylácia je spojená priamo s fotolýzou vody a redukciou NADP a tvorbou ATP.", 
         "## Fotosystém II\n",
-        "Uskutočňuje 2.svetelnú reakciu __Fotolýzu vody__\n",
+        "Uskutočňuje 2.svetelnú reakciu nazývanú aj __Fotolýzu vody__\n",
         "$$\\ce{2H20 -> 2H+ + 2 OH}$$",
         "$$\\ce{NADP+ -> NADP + H+ }$$",
         "$$\\ce{2OH- -> 2OH + 2e-}$$",
