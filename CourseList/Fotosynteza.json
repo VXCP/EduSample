@@ -16,7 +16,7 @@
         }
     ],
 
-    "brief": "__Premena anroganických látok na organické__, za __pomoci slnečného svetla__. $$\\che{12H20 + 6CO2 -> C6H12O6 + 6O2 + 6H20}$$",
+    "brief": "__Premena anroganických látok na organické__, za __pomoci slnečného svetla__. $$\\ce{12H20 + 6CO2 -> C6H12O6 + 6O2 + 6H20}$$",
     "visual": {
         "source": "@~/Assets/Photosynthesis.png"
     },
@@ -29,12 +29,12 @@
         " - (_tvorba cukrov_) \n",
         " - predpoklad biologickej existencie života na báze uhlíka\n",
         " - predpoklad vzniku fosilných palív\n",
-        " - udržiavanie pomeru $\\che{CO2}$ (0.03%) a $\\che{O2}$ (21%) v ovzduší\n\n",
+        " - udržiavanie pomeru $\\ce{CO2}$ (0.03%) a $\\ce{O2}$ (21%) v ovzduší\n\n",
         "### Podmienky a predpoklady fotosyntézy\n",
         " - 1. Systém chloroplastov - _chlorofil v rozličných komplexoch s bielkovinou_\n",
         " - 2. Slnečné žiarenie - _Zelené rastliny (400-700nm)_ a _Baktérie(300-950nm)\n",
         " - 3. Enzými - _Biokatalyzátori a prenášače vodíka v redoxných reakciách_\n",
-        " - 4. Dostupnosť a schopnosť viazať $\\che{CO2}$\n",
+        " - 4. Dostupnosť a schopnosť viazať $\\ce{CO2}$\n",
 
         "# Štrukturálny základ fotosyntézy \n",
         "Štrukturálnou jednotkou sú pri vyšších rastlinách __chloroplasty__ a v prípade prokaryotických siníc __tylakoidy__ \n",
@@ -48,36 +48,18 @@
         "Cytochróm, feredoxín, fytochinón",
         "#Koenzými\n",
         "### Priebeh fotosyntézy \n\n",
-        "$$\\che{12H20 + 6CO2 -> C6H12O6 + 6O2 + 6H20}$$",
+        "$$\\ce{12H20 + 6CO2 -> C6H12O6 + 6O2 + 6H20}$$",
 
         "## Fotosystém I\n",
         "Uskutočňuje 1.svetelnú reakciu (__Fotofosforyláciu__) aktivovanú fotónmi do 730nm.",
         "_O _cyklickej_ fosforylácii hovoríme vtedy, ak sa nabitý elektrón odovzdáva reagujúcim zlúčeninam, pričom sa oxiduje a je znovu schopný prijať další elektrón. Naopak _necyklická_ fosforylácia je spojená priamo s fotolýzou vody a redukciou NADP a tvorbou ATP.", 
         "## Fotosystém II\n",
         "Uskutočňuje 2.svetelnú reakciu __Fotolýzu vody__\n",
-        "$$\\che{2H20 -> 2H+ + 2 OH}$$",
-        "$$\\che{NADP+ -> NADP + H+ }$$",
-        "$$\\che{2OH- -> 2OH + 2e-}$$",
-        "$$\\che{2OH- -> H20 + 1/2O2}$$",
-        "$$\\che{2OH- -> H20 + 1/2O2}$$",
-        "$$\\che{ADP + H3PO4 -> ATP + H20}$$",
-
-
-        
-        "Jadro (nukleoid) prokaryotickej bunky nie je oddelené jadrovou membránou. Tvorí ho jedna kruhová (neukončená) molekula DNA, ktorá je prichytená k vnútornej strane cytoplazmatickej membrány.",
-        "Nukleoid sa často nazýva aj nepravé jadro alebo prokaryon. Z genetického hľadiska je to chromozóm, avšak je to len holá DNA, bez histónov a kyslých bielkovín.\n",
-
-        "\n## Cytoplazma\n",
-        "Cytoplazma tvorí vnútorné prostredie bunky, kde sa nachádzajú ďalšie bunkové organely a __inklúzie__. Spolu s cytoplazmatickou membránou prostredie pre metabolické deje\n",
-        
-        "## Cytoplazmatická membrána\n",
-        "Oddeľuje obsah bunky od vonkajšieho prostredia a zároveň funguje, ako osmotická bariéra.",
-        "Pri baktériach schopných fotosyntéze nahrádza aj funkciu chloroplastov a podieľa sa na procese dýchania.\n",
-        "Na cytoplazmatickej membráne sa tiež nachádza vchlipenina (__Mezozóm__), v ktorej sa nachádzajú enzýmy zúčastňujúce sa na fosforylácii a syntéze ATP.\n",
-
-        "## Bunková stena\n",
-        "Bunkový povrch tvorí bunková stena, ktorá na jej povrchu vytvára slizové púzdro (kapsulu), pozostávajúce z hydratovanej vrstvy polysacharidov, lipidov a bielkovín, ktoré zvyšuje odolnosť bunky",
-        "Bakteriálna bunková stena sa skladá z mureínu, resp. pseudomureínu u archeónov. Bunková stena je priepustná, pórovitá,",
-        "dáva bunke tvar a chráni ju pred vysokým osmotickým tlakom, ktorý vytvára vnútorné prostredie bunky."
+        "$$\\ce{2H20 -> 2H+ + 2 OH}$$",
+        "$$\\ce{NADP+ -> NADP + H+ }$$",
+        "$$\\ce{2OH- -> 2OH + 2e-}$$",
+        "$$\\ce{2OH- -> H20 + 1/2O2}$$",
+        "$$\\ce{2OH- -> H20 + 1/2O2}$$",
+        "$$\\ce{ADP + H3PO4 -> ATP + H20}$$",
     ]
 }
