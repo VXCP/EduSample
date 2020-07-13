@@ -10,7 +10,7 @@
             "Pojem2",
             "Pojem3"
         ],
-        "definition":"Toto je definicia prisluchajuca pojmom 'pojem2' a 'pojem3' vo formáte Markdown s podporou matematickych a chemickych vzorcov $$\\frac{A}{B}$$"
+        "definition":"Toto je definicia prisluchajuca pojmom 'pojem2' a 'pojem3' vo formáte _Markdown_ s podporou matematickych a chemickych vzorcov $$\\ce{CO2+H20->H2CO3}$$"
     },
     {
         "words": [
