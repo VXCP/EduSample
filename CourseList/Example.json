@@ -57,18 +57,15 @@
     ],
 
     "brief": [
-        "This is an example of a brief description. \n",
-        "### Supports Markdown Notation :) \n",
-        "$$\\frac{A}{2*B}$$\n",
-        "$$\\frac{A}{2*B}$$"
+        "Toto je krátky popisok\n",
+        "### Podporuje Markdown notáciu :) \n"
     ],
     "visual": {
         "source": "@~/Example.png"
     },
     "detail": [
         
-        "# Detailed description\n",
-        "- Double tap to zoom\n",
+        "# Detailný popis\n",
         "- Markdown Support\n\n\n",
         "## Code\n",
         " ``` \n",
