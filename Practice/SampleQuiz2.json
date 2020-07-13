@@ -174,24 +174,7 @@
     {
         "type": "fulltext",
         "case_sensitive": false,
-        "list": [{
-            "visual": "@~/Example.png",
-            "sound": [{
-                    "title": "Audio super Pro 10",
-                    "credits": "Some Author or Licenser",
-                    "source": "@"
-                },
-                {
-                    "title": "Audio super Pro 10",
-                    "source": "@"
-                },
-                {
-                    "credits": "Some Author or License",
-                    "source": "@"
-                }
-            ],
             "text": "Tu bude nejaké zadanie úlohy\nOdpovede\n[40, 50]cm\n125.4 gm/mol\n🏰🏰🏰🏰🏰\n\n1375\nTRUE\n\n10",
-            "case_sensitive": false,
             "answers": [{
                     "label": "Distance between A- B adaskjd haskdj haskjdh aksjdh aksjdh kasjdh aksjdh kajsdh kasjhdkajsdh akjsdh aksjd haksj dhaksjd haksjd haskjdh askjB",
                     "value": [
@@ -235,8 +218,6 @@
                     "fulltext": false,
                     "characters": false,
                     "words": false                
-                }
-            ]
-        } ]
+                } ]
     }
 ]
