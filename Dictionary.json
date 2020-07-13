@@ -10,7 +10,7 @@
             "Pojem2",
             "Pojem3"
         ],
-        "definition":"Toto je definícia prislúchajúca pojmom _'pojem2'_ a _'pojem3'_ vo formáte ___Markdown___ s podporou __matematických__ a __chemických__ vzorcov $$\\ce{CO2 + H20->H2CO3}$$"
+        "definition":"Toto je definícia prislúchajúca pojmom _'pojem2'_ a _'pojem3'_ vo formáte ___Markdown___ s podporou __matematických__ a __chemických__ vzorcov $$\\ce{CO2 + H2O->H2CO3}$$"
     },
     {
         "words": [
