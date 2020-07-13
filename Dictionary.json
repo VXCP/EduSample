@@ -3,14 +3,14 @@
         "words": [
             "Pojem1"
         ],
-        "definition":"Toto je definicia prisluchajuca pojmu 'pojem1'"
+        "definition":"Toto je definicía prislúchajúca pojmu 'pojem1'"
     },
     {
         "words": [
             "Pojem2",
             "Pojem3"
         ],
-        "definition":"Toto je definicia prisluchajuca pojmom 'pojem2' a 'pojem3' vo formáte _Markdown_ s podporou matematickych a chemickych vzorcov $$\\ce{CO2+H20->H2CO3}$$"
+        "definition":"Toto je definícia prislúchajúca pojmom 'pojem2' a 'pojem3' vo formáte _Markdown_ s podporou __matematických__ a __chemických__ vzorcov $$\\ce{CO2+H20->H2CO3}$$"
     },
     {
         "words": [
