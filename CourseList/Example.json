@@ -2,21 +2,21 @@
     "title": "Lecture Ex.",
     "thumbnail": "@../Assets/nikola_tesla.jpg",
     "sound" : [{
-        "title": "Harmonica Coin 1",
-        "credits": "Some Author or License 1",
-        "source": "@~/Sounds/harmonicaCoin.mp3"
-    },
-    {
-        "title": "Harmonica Coin 2",
-        "credits": "Some Author or License 2",
-        "source": "@~/Sounds/harmonicaCoin.mp3"
-    },
-    {
-        "title": "Harmonica Coin 3",
-        "credits": "Some Author or License 3",
-        "source": "@../Sounds/alarm.ogg"
-    }
-],
+            "title": "Audio 1",
+            "credits": "Some Author or License 1",
+            "source": "@~/Sounds/harmonicaCoin.mp3"
+        },
+        {
+            "title": "Audio 2",
+            "credits": "Some Author or License 2",
+            "source": "@~/Sounds/harmonicaCoin.mp3"
+        },
+        {
+            "title": "Audio 3",
+            "credits": "Some Author or License 3",
+            "source": "@../Sounds/alarm.ogg"
+        }
+    ],
     "hierarchy": {
         "source": "@~/Example.png",
         "position": "0.5:0.0"
@@ -57,8 +57,8 @@
     ],
 
     "brief": [
-        "Toto je krátky popisok\n",
-        "### Podporuje Markdown notáciu :) \n"
+        "Toto je krátky popisok teoretickej časti lekcie. ",
+        "Ideálne by sa malo jednať o maximálne 2 až 3 krátke vety, ktoré umožnia čitateľovi čo najrýchlejšie vkĺznuť do kontextu vykladanej problematiky danej lekcie. \n"
     ],
     "visual": {
         "source": "@~/Example.png"
