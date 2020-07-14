@@ -3,5 +3,42 @@
         "type": "filltext",
         "case_sensitive": true,
         "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??Second?? incididunt ut labore et, Lorem ipsum ??Third??"
+    },
+    {
+        "type": "fulltext",
+        "case_sensitive": false,
+            "text": "__V tejto časti je priestor pre zadanie úlohy__",
+            "answers": [{
+                    "label": "Podotázka s číselnou odpoveďou",
+                    "value": [
+                        40.0,
+                        50
+                    ],
+                    "max_error": 0.7,
+                    "units": "cm"
+                },
+                {
+                    "case_sensitive": true,
+                    "label": "Podotázka s textovou odpoveďou:)",
+                    "value": [
+                        "Odpoveď v správnom poradí",
+                        "Answer"
+                    ],
+                    "fulltext": true,
+                    "characters": false,
+                    "words": false                
+                },
+                {
+                    "case_sensitive": true,
+                    "label": "Podotázka s pravdivostnou hodnotou",
+                    "value": [
+                        "Odpoveď v správnom poradí",
+                        "Answer"
+                    ],
+                    "fulltext": false,
+                    "characters": false,
+                    "words": false                
+                }
+            ]
     }
 ]
