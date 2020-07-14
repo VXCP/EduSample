@@ -174,9 +174,9 @@
     {
         "type": "fulltext",
         "case_sensitive": false,
-            "text": "Tu bude nejaké zadanie úlohy\nOdpovede\n[40, 50]cm\n125.4 gm/mol\n🏰🏰🏰🏰🏰\n\n1375\nTRUE\n\n10",
+            "text": "Tu bude nejaké zadanie úlohy\n\nOdpovede\n\n[40, 50]cm\n\n125.4 gm/mol\n\n🏰🏰🏰🏰🏰\n\n1375\n\nTRUE\n\n10",
             "answers": [{
-                    "label": "Distance between A- B adaskjd haskdj haskjdh aksjdh aksjdh kasjdh aksjdh kajsdh kasjhdkajsdh akjsdh aksjd haksj dhaksjd haksjd haskjdh askjB",
+                    "label": "Podotázka s číselnou odpoveďou",
                     "value": [
                         40.0,
                         50
