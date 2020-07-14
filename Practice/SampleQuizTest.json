@@ -55,14 +55,12 @@
             "position": "0.48:0.8",
             "size": "0.2 : 0.2",
             "sound": "@~/Sounds/alarm.ogg",
-            "image": "@~/Example.png",
             "style": "clr:70:70:70:1.0 | font-clr:0:255:0 | b-beveled: 0.2:0.05 : 0.05:0.0 "
         },
         {
             "text": "Tlačiareň\nPrinter",
             "position": "0.18:0.2",
             "size": "0.2:0.2",
-            "image": "@~/Example.png",
             "style": "clr:70:70:240:0.5 | font-clr:0:255:0:0.5 | b-none"
         },
         {
