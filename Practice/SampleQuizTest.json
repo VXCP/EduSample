@@ -53,37 +53,30 @@
             "text": "Myška\nMouse",
             "position": "0.48:0.8",
             "size": "0.2 : 0.2",
-            "sound": "@~/Sounds/alarm.ogg",
-            "style": "clr:70:70:70:1.0 | font-clr:0:255:0 | b-beveled: 0.2:0.05 : 0.05:0.0 "
+            "sound": "@~/Sounds/alarm.ogg"
         },
         {
             "text": "Tlačiareň\nPrinter",
             "position": "0.18:0.2",
-            "size": "0.2:0.2",
-            "style": "clr:70:70:240:0.5 | font-clr:0:255:0:0.5 | b-none"
+            "size": "0.2:0.2"
         },
         {
             "text": "Bedňa\nCase",
             "position": "0.8:0.15",
-            "sound": "@~/Sounds/harmonicaCoin.mp3",
             "size": "0.5:0.5"
         },
         {
             "text": "Klávesnica\nKeyboard",
             "position": "0.17:0.81",
-            "size": "0.5:0.5",
-            "sound": "@../Sounds/bicycle-horn-1.wav",
-            "style": "Shadow: false"
+            "size": "0.5:0.5"
         },
         {
             "text": "WiFi",
             "position": "0.8:0.8",
-            "sound" :"just fuckup",
             "size": "0.1:0.1"
         },
         {
             "text": "Monitor",
-            "sound": "@invalidFile",
             "position": "0.5:0.15",
             "size": "0.5:0.5"
         }
