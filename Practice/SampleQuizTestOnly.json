@@ -31,13 +31,7 @@
                 {
                     "case_sensitive": true,
                     "label": "Podotázka s pravdivostnou hodnotou",
-                    "value": [
-                        "Odpoveď v správnom poradí",
-                        "Answer"
-                    ],
-                    "fulltext": false,
-                    "characters": false,
-                    "words": false                
+                    "value": true              
                 }
             ]
     }
