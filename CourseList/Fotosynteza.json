@@ -1,6 +1,7 @@
 {
     "title": "Fotosyntéza",
     "thumbnail": "@../Assets/PhotosynthesisThumbnail.png",
+    "quiz":["@../Practice/SampleQuizTest.json"],
     "facts": [
         {
             "title": "Vstup",
