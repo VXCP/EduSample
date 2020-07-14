@@ -22,7 +22,6 @@
         "source": "@~/Assets/Photosynthesis.png"
     },
     "detail": [
-
         "# Čo je fotosyntéza ?\n",
         "Fotos (svetlo) syntéza (viazanie, zlučovanie) je dej, ktorého výsledkom je produkcia organických látok a kyslíka procesom viazania slnečnej energie a jej premeny na energiu chemických väzieb.\n",
  
@@ -48,8 +47,7 @@
         " - __Fykobilíny__ - _fytocyanin (sinice)_ alebo _fykoeritrín (riasy)_\n",
         "### __Mytochemické pigmenty__ \n",
         "Cytochróm, feredoxín, fytochinón\n",
-        "### __Koenzými__\n",
-        
+        "### __Koenzými__\n",       
         
         "# Priebeh fotosyntézy \n\n",
         "$$\\ce{12H20 + 6CO2 -> C6H12O6 + 6O2 + 6H20}$$\n",
