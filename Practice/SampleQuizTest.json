@@ -39,7 +39,7 @@
 },
 {
     "type": "map",
-    "map": "@~/Assets/pc-parts.png",
+    "map": "@~/Assets/pc-parts.jpg",
     "hide": [
         "c: 0.0:0.5 : 1.0 |",
         "r: 0.05:0.12 : 0.3:0.3| b:0.1",
