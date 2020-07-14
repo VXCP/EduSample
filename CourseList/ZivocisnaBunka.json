@@ -1,6 +1,7 @@
 {
     "title": "Prokaryotická Bunka",
     "thumbnail": "@../Assets/ProkaryoteThumbnail.png",
+    "quiz":["@../Practice/SampleQuizTestOnly.json"],
     "facts": [
         {
             "title": "Povrch",
