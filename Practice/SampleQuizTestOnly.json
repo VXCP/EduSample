@@ -37,15 +37,20 @@
         "text": "Welcome To Sort Question. Please sort the following constants by value $$15\\dot15$$ from __highest__ to __lowest__",
         "sort": [
             {
-                "text": "",
+                "text": "1",
                 "partial": "2.236",
                 "visual": "@~/Example.png"
             },            {
-                "text": "√5",
+                "text": "2",
                 "partial": "2.236",
                 "visual": "@~/Example.png"
             },            {
-                "text": "√5",
+                "text": "3",
+                "partial": "2.236",
+                "visual": "@~/Example.png"
+            },
+            {
+                "text": "4",
                 "partial": "2.236",
                 "visual": "@~/Example.png"
             },
@@ -55,12 +60,7 @@
                 "visual": "@~/Example.png"
             },
             {
-                "text": "√5",
-                "partial": "2.236",
-                "visual": "@~/Example.png"
-            },
-            {
-                "text": "Ježko Divý",
+                "text": "5",
                 "partial": "2.236",
                 "visual": "@../Assets/quicksort.gif"
             }
