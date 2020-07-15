@@ -55,12 +55,12 @@
                 "visual": "@~/Example.png"
             },
             {
-                "text": "√5",
+                "text": "5",
                 "partial": "2.236",
                 "visual": "@~/Example.png"
             },
             {
-                "text": "5",
+                "text": "6",
                 "partial": "2.236",
                 "visual": "@../Assets/quicksort.gif"
             }
