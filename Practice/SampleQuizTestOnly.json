@@ -18,18 +18,14 @@
                     "units": "cm"
                 },
                 {
-                    "case_sensitive": true,
+                    "case_sensitive": false,
                     "label": "Podotázka s textovou odpoveďou",
                     "value": [
                         "Odpoveď v správnom poradí",
                         "Answer"
-                    ],
-                    "fulltext": false,
-                    "characters": true,
-                    "words": true                
+                    ]        
                 },
                 {
-                    "case_sensitive": true,
                     "label": "Podotázka s pravdivostnou hodnotou",
                     "value": true              
                 }
