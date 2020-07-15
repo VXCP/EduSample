@@ -19,14 +19,14 @@
                 },
                 {
                     "case_sensitive": true,
-                    "label": "Podotázka s textovou odpoveďou:)",
+                    "label": "Podotázka s textovou odpoveďou",
                     "value": [
                         "Odpoveď v správnom poradí",
                         "Answer"
                     ],
-                    "fulltext": true,
-                    "characters": false,
-                    "words": false                
+                    "fulltext": false,
+                    "characters": true,
+                    "words": true                
                 },
                 {
                     "case_sensitive": true,
