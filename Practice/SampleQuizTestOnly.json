@@ -65,5 +65,32 @@
                 "visual": "@../Assets/quicksort.gif"
             }
         ]
+    },
+    {
+        "type": "pairs",
+        "text": "Welcome To Pairs Question. Please pair the objects in the list above.",
+        "answer_detail": "Just because it is",
+        "pairs": [
+            [
+                "Claude Monet",
+                "Impresionizmus"
+            ],
+            [
+                "Pablo Picasso",
+                "Kubizmus"
+            ],
+            [
+                "Leonardo Da Vinci",
+                "Renesancia"
+            ],
+            [
+                "Vincent Van Gogh",
+                "Postimpresionizmus"
+            ],
+            [
+                "Rembrandr",
+                "Barok"
+            ]
+        ]
     }
 ]
