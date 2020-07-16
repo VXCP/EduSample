@@ -5,6 +5,11 @@
         "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??Second?? incididunt ut labore et, Lorem ipsum ??Third??"
     },
     {
+        "type": "filltext",
+        "case_sensitive": true,
+        "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??Second?? incididunt ut labore et, Lorem ipsum ??Third??"
+    },
+    {
         "type": "fulltext",
         "answer_detail": "Toto je detailný popis a vysvetlenie postupu k riešeniu správnej odpovede",
         "case_sensitive": false,
