@@ -1,6 +1,6 @@
 {
     "title": "Test Init",
-
+    "quiz":["@../Practice/SampleQuizTestOnly3.json"],
     "facts": [
         {
             "title": "Fact1",
