@@ -32,7 +32,7 @@
                 "text": "Bedňa\nCase",
                 "position": "0.8:0.15",
                 "sound": "@~/Sounds/harmonicaCoin.mp3",
-                "size": "0.5:0.5"
+                "size": "0.1:0.1"
             },
             {
                 "text": "Klávesnica\nKeyboard",
@@ -45,13 +45,12 @@
                 "text": "$$WiFi \\frac{A+B}{2}$$",
                 "position": "0.8:0.8",
                 "sound" :"just fuckup",
-                "size": "0.2:0.2"
+                "size": "1.0:1.0"
             },
             {
                 "text": "Monitor",
                 "sound": "@invalidFile",
                 "position": "0.5:0.15",
-                "size": "0.5:0.5"
             }
         ]
     }
