@@ -6,7 +6,7 @@
             "visual": "@~/Example.png",
             "sound": "@",
             "answer_detail": "Just because it is",
-            "choices": [4,6,8],
+            "choices": [4],
             "true": [
                 "Vertex puller je velmi zlozity ano ano velmi  potrebujem trosku dlhsiu odpoved",
                 "Vertex puller je velmi zlozity ano ano velmi  potrebujem trosku dlhsiu odpoved",
@@ -26,28 +26,7 @@
         {
             "text": "Zadanie otazky >> Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com)\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS",
             "answer_detail": "Just because it is",
-            "choices": [4,6,8],
-            "singleChoice": true,
-            "true": [
-                "Vertex puller je velmi zlozity ano ano velmi  potrebujem trosku dlhsiu odpoved",
-                "Vertex puller je velmi zlozity ano ano velmi  potrebujem trosku dlhsiu odpoved",
-                "Vertex puller je velmi zlozity ano ano velmi  potrebujem trosku dlhsiu odpoved",
-                "Vertex puller je velmi zlozity ano ano velmi  potrebujem trosku dlhsiu odpoved"
-            ],
-            "false": [
-                ":Ahojky",
-                "::ALKOOOOOOOOO::"
-            ]
-        }
-    ]
-},
-{
-    "type": "choice",
-    "list": [
-        {
-            "text": "Zadanie otazky >> Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com)\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS\nS",
-            "answer_detail": "Just because it is",
-            "choices": [4,6,8],
+            "choices": [4],
             "singleChoice": true,
             "true": [
                 "$$\\frac{A}{B}$$",
