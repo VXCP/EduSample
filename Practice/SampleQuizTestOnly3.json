@@ -75,8 +75,7 @@
             {
                 "text": "Bedňa\nCase",
                 "position": "0.8:0.15",
-                "sound": "@~/Sounds/harmonicaCoin.mp3",
-                "size": "0.1:0.1"
+                "sound": "@~/Sounds/harmonicaCoin.mp3"
             },
             {
                 "text": "Klávesnica\nKeyboard",
