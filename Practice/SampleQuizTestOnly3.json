@@ -45,7 +45,7 @@
                 "text": "$$WiFi \\frac{A+B}{2}$$",
                 "position": "0.8:0.8",
                 "sound" :"just fuckup",
-                "size": "0.1:0.1"
+                "size": "1.0:1.0"
             },
             {
                 "text": "Monitor",
