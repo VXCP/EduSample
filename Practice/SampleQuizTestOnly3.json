@@ -42,7 +42,7 @@
                 "style": "Shadow: false"
             },
             {
-                "text": "$$WiFi \\frac{A+B}{2}$$",
+                "text": "WiFi",
                 "position": "0.8:0.8",
                 "sound" :"just fuckup",
                 "size": "1.0:1.0"
@@ -129,7 +129,7 @@
                 "style": "Shadow: false"
             },
             {
-                "text": "$$WiFi \\frac{A+B}{2}$$",
+                "text": "WiFi",
                 "position": "0.8:0.8",
                 "sound" :"just fuckup"
             },
