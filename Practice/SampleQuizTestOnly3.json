@@ -44,5 +44,41 @@
                 "position": "0.5:0.15"
             }
         ]
+    },
+    {
+        "type": "map",
+        "map": "@~/Assets/SlovakiaMapBlank.jpg",
+        "answers": [{
+                "position": "0.4:0.8",
+                "size": "0.2 : 0.3",
+                "image": "@~/Assets/SlovakiaFlag.png"
+            },
+            {
+                "position": "0.5:0.8",
+                "text": "Printer",
+                "size": "0.2 : 0.3",
+                "image": "@~/Assets/PolandFlag.png"
+            },
+            {
+                "position": "0.6:0.8",
+                "size": "0.2 : 0.3",
+                "image": "@~/Assets/UkraineFlag.png"
+            },
+            {
+                "position": "0.7:0.8",
+                "size": "0.2 : 0.3",
+                "image": "@~/Assets/HungaryFlag.png"
+            },
+            {
+                "position": "0.8:0.8",
+                "size": "0.2 : 0.3",
+                "image": "@~/Assets/RomaniaFlag.png"
+            },
+            {
+                "position": "0.9:0.8",
+                "size": "0.2 : 0.3",
+                "image": "@~/Assets/AustriaFlag.png"
+            }
+        ]
     }
 ]
