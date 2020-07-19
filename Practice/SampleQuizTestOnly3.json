@@ -138,7 +138,7 @@
     {
         "type": "sort",
         "imageFit": "fill",
-        "text": "# Zoraďte nasledujúce planéty podľa vzdielenosti od Slnka od najbližšej po najvzdialenejšiu.",
+        "text": "### Zoraďte nasledujúce planéty podľa vzdielenosti od Slnka od najbližšej po najvzdialenejšiu.",
         "sort": [
             {
                 "text": "Merkúr",
