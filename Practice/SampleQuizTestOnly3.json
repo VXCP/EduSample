@@ -28,21 +28,29 @@
                 "true": [ 
                     {
                         "text" : "Tomáš Akvinský",
-                        "image": "@./Assets/Aristoteles.jpg"
+                        "image": "@./Assets/Akvinsky.jpg"
                     }
                 ],
                 "false": [
                     {
                         "text" : "Hugo Grotius",
-                        "image": "@./Assets/Aristoteles.jpg"
+                        "image": "@./Assets/HugoGrotius.jpg"
                     },
                     {
                         "text" : "Aristoteles",
                         "image": "@./Assets/Aristoteles.jpg"
                     },
                     {
-                        "text" : "Jean Paul Sarte",
-                        "image": "@./Assets/Aristoteles.jpg"
+                        "text" : "Montequieu",
+                        "image": "@./Assets/Montesquieu.jpg"
+                    },
+                    {
+                        "text" : "Immanuel Kant",
+                        "image": "@./Assets/ImmanuelKant.jpg"
+                    },
+                    {
+                        "text" : "Platon",
+                        "image": "@./Assets/Platon.png"
                     }
                 ]
             }
