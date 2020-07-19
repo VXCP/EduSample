@@ -136,6 +136,51 @@
         ]
     },
     {
+        "type": "sort",
+        "imageFit": "fill",
+        "text": "Zoraďte nasledujúce planéty podľa vzdielenosti od Slnka od najbližšej po najvzdialenejšiu.",
+        "sort": [
+            {
+                "text": "Merkúr",
+                "partial": "57.9 mil. km",
+                "visual": "@~/Assets/Mercury.jpg"
+            },            {
+                "text": "Venuša",
+                "partial": "108.2 mil. km",
+                "visual": "@~/Assets/Venus.jpg"
+            },            {
+                "text": "Zem",
+                "partial": "149.6 mil. km",
+                "visual": "@~/Assets/Earth.jpg"
+            },
+            {
+                "text": "Mars",
+                "partial": "227.9 mil. km",
+                "visual": "@~/Assets/Mars.jpg"
+            },
+            {
+                "text": "Jupiter",
+                "partial": "778.3 mil. km",
+                "visual": "@~/Assets/Jupiter.jpg"
+            },
+            {
+                "text": "Saturn",
+                "partial": "1427.0 mil. km",
+                "visual": "@~/Assets/Saturn.jpg"
+            },
+            {
+                "text": "Urán",
+                "partial": "2871.0 mil. km",
+                "visual": "@~/Assets/Uranus.jpg"
+            },
+            {
+                "text": "Neptún",
+                "partial": "4497.1 mil. km",
+                "visual": "@~/Assets/Neptune.jpg"
+            }
+        ]
+    },
+    {
         "type": "choice",
         "list": [
             {
