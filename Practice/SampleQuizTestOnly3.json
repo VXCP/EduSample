@@ -3,15 +3,13 @@
     {
         "type": "map",
         "map": "@~/Assets/pc-parts.jpg",
-        "mask": "@~/Example.png",
         "hide": [
-            "c: 0.0:0.5 : 1.0 |",
-            "r: 0.05:0.12 : 0.3:0.3| b:0.1",
-            "r: 0.04:0.72 : 0.3:0.90| b-beveled:1:1:0.0:0.0 | clr:255:40:120:1.0",
-            "r: 0.37:0.06 : 0.61:0.24| b:0.1",
-            "r: 0.36:0.7 : 0.61:0.89| b:0.1",
-            "r: 0.67:0.08 : 0.93:0.255| b:0.1",
-            "r: 0.675:0.72 : 0.945:0.9| b:0.1"
+            "r: 0.05:0.12 : 0.3:0.3| b-rounded: 0.2:0.2:0.2:0.2  | clr:255:0:0:1.0" ,
+            "r: 0.04:0.72 : 0.3:0.90| b-rounded: 0.2:0.2:0.2:0.2 | clr:0:255:0:1.0",
+            "r: 0.37:0.06 : 0.61:0.24| b-rounded: 0.2:0.2:0.2:0.2| clr:0:0:255:1.0",
+            "r: 0.36:0.7 : 0.61:0.89| b-rounded: 0.2:0.2:0.2:0.2 | clr:255:255:1.0",
+            "r: 0.67:0.08 : 0.93:0.255| b-rounded: 0.2:0.2:0.2:0.2 | clr:0:255:255:1.0",
+            "r: 0.675:0.72 : 0.945:0.9| b-rounded: 0.2:0.2:0.2:0.2 | clr:255:0:255"
         ],
         "answers": [{
                 "text": "Myška\nMouse",
@@ -46,92 +44,6 @@
                 "position": "0.8:0.8",
                 "sound" :"just fuckup",
                 "size": "1.0:1.0"
-            },
-            {
-                "text": "Monitor",
-                "sound": "@invalidFile",
-                "position": "0.5:0.15"
-            }
-        ]
-    },
-    {
-        "type": "map",
-        "map": "@~/Assets/pc-parts.jpg",
-        "answers": [{
-                "text": "Myška\nMouse",
-                "position": "0.48:0.8",
-                "size": "0.2 : 0.2",
-                "sound": "@~/Sounds/alarm.ogg",
-                "image": "@~/Example.png",
-                "style": "clr:70:70:70:1.0 | font-clr:0:255:0 | b-beveled: 0.2:0.05 : 0.05:0.0 "
-            },
-            {
-                "text": "Tlačiareň\nPrinter",
-                "position": "0.18:0.2",
-                "size": "0.2:0.2",
-                "image": "@~/Example.png",
-                "style": "clr:70:70:240:0.5 | font-clr:0:255:0:0.5 | b-none"
-            },
-            {
-                "text": "Bedňa\nCase",
-                "position": "0.8:0.15",
-                "sound": "@~/Sounds/harmonicaCoin.mp3"
-            },
-            {
-                "text": "Klávesnica\nKeyboard",
-                "position": "0.17:0.81",
-                "size": "0.5:0.5",
-                "sound": "@../Sounds/bicycle-horn-1.wav",
-                "style": "Shadow: false"
-            },
-            {
-                "text": "$$WiFi \\frac{A+B}{2}$$",
-                "position": "0.8:0.8",
-                "sound" :"just fuckup"
-            },
-            {
-                "text": "Monitor",
-                "sound": "@invalidFile",
-                "position": "0.5:0.15"
-            }
-        ]
-    },
-    {
-        "type": "map",
-        "map": "@~/Assets/pc-parts.jpg",
-        "mask": "",
-        "answers": [{
-                "text": "Myška\nMouse",
-                "position": "0.48:0.8",
-                "size": "0.2 : 0.2",
-                "sound": "@~/Sounds/alarm.ogg",
-                "image": "@~/Example.png",
-                "style": "clr:70:70:70:1.0 | font-clr:0:255:0 | b-beveled: 0.2:0.05 : 0.05:0.0 "
-            },
-            {
-                "text": "Tlačiareň\nPrinter",
-                "position": "0.18:0.2",
-                "size": "0.2:0.2",
-                "image": "@~/Example.png",
-                "style": "clr:70:70:240:0.5 | font-clr:0:255:0:0.5 | b-none"
-            },
-            {
-                "text": "Bedňa\nCase",
-                "position": "0.8:0.15",
-                "sound": "@~/Sounds/harmonicaCoin.mp3",
-                "size": "0.1:0.1"
-            },
-            {
-                "text": "Klávesnica\nKeyboard",
-                "position": "0.17:0.81",
-                "size": "0.5:0.5",
-                "sound": "@../Sounds/bicycle-horn-1.wav",
-                "style": "Shadow: false"
-            },
-            {
-                "text": "WiFi",
-                "position": "0.8:0.8",
-                "sound" :"just fuckup"
             },
             {
                 "text": "Monitor",
