@@ -47,7 +47,7 @@
     },
     {
         "type": "map",
-        "map": "@~/Assets/SlovakiaMapBlank.jpg",
+        "map": "@~/Assets/SlovakiaMapBlank.png",
         "answers": [{
                 "position": "0.4:0.8",
                 "size": "0.2 : 0.3",
