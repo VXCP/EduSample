@@ -89,8 +89,9 @@
         "type": "choice",
         "list": [
             {
-                "text": "",
-                "answer_detail": "Ktorá z následujúcich rovníc definuje vzťah rovnosti medzi energiou a hmotnosťou, ktorú opísal Albert Einstein v teorii relativity?",
+                "text": "Ktorá z následujúcich rovníc definuje vzťah rovnosti medzi energiou a hmotnosťou, ktorú opísal Albert Einstein v teorii relativity?",
+                "singleChoice": true,
+                "answer_detail": "",
                 "true": [
                     {
                         "text": "$$E=mc^{2}$$"
@@ -98,7 +99,7 @@
     
                 ],
                 "false": [
-                    "$$E = m^{2}\\frac{c}{2}$$",
+                    "$$E = m^{2} \\frac{c}{2}$$",
                     "$$E = 2mc$$",
                     "$$E = 2mc^{2}$$"
                 ]
