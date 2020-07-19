@@ -55,5 +55,38 @@
                 ]
             }
         ]
+    },
+    {
+        "type": "choice",
+        "list": [
+            {
+                "text": "Ktorý filozof sa označuje ako zakladateľ tomizmu?",
+                "singleChoice": true,
+                "imageFit" : "cover",
+                "answer_detail": "",
+                "true": [ 
+                    {
+                        "text" : "Tomáš Akvinský"
+                    }
+                ],
+                "false": [
+                    {
+                        "text" : "Hugo Grotius"
+                    },
+                    {
+                        "text" : "Aristoteles"
+                    },
+                    {
+                        "text" : "Montesquieu"
+                    },
+                    {
+                        "text" : "Immanuel Kant"
+                    },
+                    {
+                        "text" : "Platon"
+                    }
+                ]
+            }
+        ]
     }
 ]
