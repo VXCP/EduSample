@@ -54,7 +54,7 @@
                 "image": "@~/Assets/SlovakiaFlag.png"
             },
             {
-                "position": "0.25:0.35",
+                "position": "0.2:0.32",
                 "size": "0.2 : 0.13",
                 "image": "@~/Assets/CzechFlag.png"
             },
@@ -64,7 +64,7 @@
                 "image": "@~/Assets/PolandFlag.png"
             },
             {
-                "position": "0.9:0.5",
+                "position": "0.95:0.5",
                 "size": "0.2 : 0.13",
                 "image": "@~/Assets/UkraineFlag.png"
             },
@@ -79,7 +79,7 @@
                 "image": "@~/Assets/RomaniaFlag.png"
             },
             {
-                "position": "0.1:0.55",
+                "position": "0.05:0.55",
                 "size": "0.2 : 0.13",
                 "image": "@~/Assets/AustriaFlag.png"
             }
