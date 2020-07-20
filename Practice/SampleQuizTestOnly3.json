@@ -137,6 +137,78 @@
     },
     {
         "type": "sort",
+        "imageFit": "cover",
+        "text": "### Zoraďte nasledujúce dinosauri podľa ich predpokladanej priemernej výšky od najvyššieho po najnižšieho.",
+        "sort": [
+            {
+                "text": "Brachiosaurus",
+                "partial": "30.5 m",
+                "visual": "@~/Assets/Brachiosaturus.png"
+            },            {
+                "text": "Tyrannosaurus",
+                "partial": "15.2 m",
+                "visual": "@~/Assets/Tyrannosaurus.png"
+            },            {
+                "text": "Spinosaurus",
+                "partial": "12.2 m",
+                "visual": "@~/Assets/Spinosaurus.png"
+            },
+            {
+                "text": "Megalosaurus",
+                "partial": "7.9 m",
+                "visual": "@~/Assets/Megalosaurus.png"
+            },
+            {
+                "text": "Chasmosaurus",
+                "partial": "5.2 m",
+                "visual": "@~/Assets/Chasmosaurus.png"
+            },
+            {
+                "text": "Ankylosaurus",
+                "partial": "3.4 m",
+                "visual": "@~/Assets/Ankylosaurus.png"
+            }
+        ]
+    },
+    {
+        "type": "sort",
+        "imageFit": "fill",
+        "text": "### Zoraďte prvky podľa ich protónového čísla __Z__ od najniŽšieho po najvyšší",
+        "sort": [
+            {
+                "text": "Vodík",
+                "partial": "Z: 1"
+            },            {
+                "text": "Hélium",
+                "partial": "Z: 2"
+            },            {
+                "text": "Sodík",
+                "partial": "Z: 11"
+            },
+            {
+                "text": "Draslík",
+                "partial": "Z: 19"
+            },
+            {
+                "text": "Gallium",
+                "partial": "Z: 31"
+            },
+            {
+                "text": "Xeon",
+                "partial": "Z: 59"
+            },
+            {
+                "text": "Zlato",
+                "partial": "Z: 79"
+            },
+            {
+                "text": "Francium",
+                "partial": "Z: 87"
+            }
+        ]
+    },
+    {
+        "type": "sort",
         "imageFit": "fill",
         "text": "### Zoraďte nasledujúce planéty podľa vzdielenosti od Slnka od najbližšej po najvzdialenejšiu.",
         "sort": [
