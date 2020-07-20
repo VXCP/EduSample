@@ -1,4 +1,5 @@
-[{
+[
+{
     "type": "map",
     "map": "@~/Assets/pc-parts.jpg",
     "hide": [
@@ -82,5 +83,65 @@
             "image": "@~/Assets/AustriaFlag.png"
         }
     ]
+},
+{
+    "type": "pairs",
+    "text": "Priraďte k umelcom umelcké smery, ktorých boli súčasťou.",
+    "answer_detail": "Just because it is",
+    "pairs": [
+        [
+            "Claude Monet",
+            "Impresionizmus"
+        ],
+        [
+            "Pablo Picasso",
+            "Kubizmus"
+        ],
+        [
+            "Leonardo Da Vinci",
+            "Renesancia"
+        ],
+        [
+            "Vincent Van Gogh",
+            "Postimpresionizmus"
+        ],
+        [
+            "Rembrandr",
+            "Barok"
+        ]
+    ]
+},
+{
+    "type": "fulltext",
+    "answer_detail": "Toto je detailný popis a vysvetlenie postupu k riešeniu správnej odpovede",
+    "case_sensitive": false,
+        "text": "__V tejto časti je priestor pre zadanie úlohy__  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend mi a neque ornare, quis vehicula mauris efficitur. Vestibulum ex urna, facilisis vitae luctus id, suscipit vestibulum turpis. Vestibulum sit amet neque in lorem rhoncus ultricies eget ut quam. Duis enim sapien, faucibus eu convallis non, varius nec mi. Praesent efficitur, lorem eu malesuada viverra, tortor mauris pulvinar metus, sagittis efficitur erat lorem eget elit. Phasellus nec massa aliquam, laoreet elit vitae, elementum justo. Sed ornare odio non aliquet lobortis. Morbi aliquet felis vitae risus vehicula, eget varius metus eleifend. Sed commodo arcu non porta placerat",
+        "answers": [{
+                "label": "Podotázka s číselnou odpoveďou",
+                "value": [
+                    40.0,
+                    50
+                ],
+                "max_error": 0.7,
+                "units": "cm"
+            },
+            {
+                "case_sensitive": false,
+                "label": "Podotázka s textovou odpoveďou",
+                "value": [
+                    "Odpoveď v správnom poradí",
+                    "Answer"
+                ]        
+            },
+            {
+                "label": "Podotázka s pravdivostnou hodnotou",
+                "value": true              
+            }
+        ]
+},
+{
+    "type": "filltext",
+    "case_sensitive": true,
+    "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??Second?? incididunt ut labore et, Lorem ipsum ??Third??"
 }
 ]

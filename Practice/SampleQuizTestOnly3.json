@@ -1,5 +1,90 @@
 [
     {
+        "type": "map",
+        "map": "@~/Assets/pc-parts.jpg",
+        "hide": [
+            "r: 0.05:0.12 : 0.3:0.3   | b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.03:0.73 : 0.3:0.92  | b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.37:0.06 : 0.62:0.24 | b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.36:0.725 : 0.61:0.89| b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.68:0.07 : 0.95:0.26 | b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.68:0.732 : 0.96:0.92| b-rounded: 0.02:0.02:0.02:0.02"
+        ],
+        "answers": [{
+                "text": "Mouse",
+                "position": "0.48:0.8",
+                "size": "0.2 : 0.2",
+                "sound": "@~/Sounds/alarm.ogg"
+            },
+            {
+                "text": "Printer",
+                "position": "0.18:0.2",
+                "size": "0.2:0.2"
+            },
+            {
+                "text": "Case",
+                "position": "0.82:0.18",
+                "sound": "@~/Sounds/harmonicaCoin.mp3",
+                "size": "0.1:0.1"
+            },
+            {
+                "text": "Keyboard",
+                "position": "0.17:0.81",
+                "size": "0.5:0.5",
+                "sound": "@../Sounds/bicycle-horn-1.wav"
+            },
+            {
+                "text": "WiFi",
+                "position": "0.82:0.83",
+                "size": "1.0:1.0"
+            },
+            {
+                "text": "Monitor",
+                "position": "0.5:0.15"
+            }
+        ]
+    },
+    {
+        "type": "map",
+        "map": "@~/Assets/SlovakiaMapBlank.png",
+        "answers": [{
+                "position": "0.45:0.47",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/SlovakiaFlag.png"
+            },
+            {
+                "position": "0.2:0.32",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/CzechFlag.png"
+            },
+            {
+                "position": "0.5:0.2",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/PolandFlag.png"
+            },
+            {
+                "position": "0.95:0.5",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/UkraineFlag.png"
+            },
+            {
+                "position": "0.5:0.8",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/HungaryFlag.png"
+            },
+            {
+                "position": "0.85:0.9",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/RomaniaFlag.png"
+            },
+            {
+                "position": "0.05:0.55",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/AustriaFlag.png"
+            }
+        ]
+    },
+    {
         "type": "choice",
         "list": [
             {
@@ -87,84 +172,6 @@
     ]
     },
     {
-        "type": "choice",
-        "list": [
-            {
-                "text": "### Ktorý filozof sa označuje ako zakladateľ tomizmu?",
-                "singleChoice": true,
-                "answer_detail": "",
-                "imageFit" : "fill",
-                "true": [ 
-                    {
-                        "text" : "Tomáš Akvinský",
-                        "image": "@../Assets/Akvinsky.jpg"
-                    }
-                ],
-                "false": [
-                    {
-                        "text" : "Hugo Grotius",
-                        "image": "@../Assets/HugoGrotius.jpg"
-                    },
-                    {
-                        "text" : "Aristoteles",
-                        "image": "@../Assets/Aristoteles.jpg"
-                    },
-                    {
-                        "text" : "Montesquieu",
-                        "image": "@../Assets/Montesquieu.jpg"
-                    },
-                    {
-                        "text" : "Immanuel Kant",
-                        "image": "@../Assets/ImmanuelKant.jpg"
-                    },
-                    {
-                        "text" : "Platon",
-                        "image": "@../Assets/Platon.png"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "type": "choice",
-        "list": [
-            {
-                "text": "### Ktorý filozof sa označuje ako zakladateľ tomizmu?",
-                "singleChoice": true,
-                "answer_detail": "",
-                "imageFit" : "none",
-                "true": [ 
-                    {
-                        "text" : "Tomáš Akvinský",
-                        "image": "@../Assets/Akvinsky.jpg"
-                    }
-                ],
-                "false": [
-                    {
-                        "text" : "Hugo Grotius",
-                        "image": "@../Assets/HugoGrotius.jpg"
-                    },
-                    {
-                        "text" : "Aristoteles",
-                        "image": "@../Assets/Aristoteles.jpg"
-                    },
-                    {
-                        "text" : "Montesquieu",
-                        "image": "@../Assets/Montesquieu.jpg"
-                    },
-                    {
-                        "text" : "Immanuel Kant",
-                        "image": "@../Assets/ImmanuelKant.jpg"
-                    },
-                    {
-                        "text" : "Platon",
-                        "image": "@../Assets/Platon.png"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "type": "sort",
         "imageFit": "cover",
         "text": "### Zoraďte nasledujúce dinosauri podľa ich predpokladanej priemernej výšky od najvyššieho po najnižšieho.",
@@ -197,6 +204,33 @@
                 "partial": "3.4 m",
                 "visual": "@~/Assets/Ankylosaurus.png"
             }
+        ]
+    },
+    {
+        "type": "pairs",
+        "text": "Priraďte k umelcom umelcké smery, ktorých boli súčasťou.",
+        "answer_detail": "Just because it is",
+        "pairs": [
+            [
+                "Claude Monet",
+                "Impresionizmus"
+            ],
+            [
+                "Pablo Picasso",
+                "Kubizmus"
+            ],
+            [
+                "Leonardo Da Vinci",
+                "Renesancia"
+            ],
+            [
+                "Vincent Van Gogh",
+                "Postimpresionizmus"
+            ],
+            [
+                "Rembrandr",
+                "Barok"
+            ]
         ]
     },
     {
@@ -278,39 +312,6 @@
                 "text": "Neptún",
                 "partial": "4497.1 mil. km",
                 "visual": "@~/Assets/Neptune.jpg"
-            }
-        ]
-    },
-    {
-        "type": "choice",
-        "list": [
-            {
-                "text": "### Ktorý filozof sa označuje ako zakladateľ tomizmu?",
-                "singleChoice": true,
-                "imageFit" : "cover",
-                "answer_detail": "",
-                "true": [ 
-                    {
-                        "text" : "Tomáš Akvinský"
-                    }
-                ],
-                "false": [
-                    {
-                        "text" : "Hugo Grotius"
-                    },
-                    {
-                        "text" : "Aristoteles"
-                    },
-                    {
-                        "text" : "Montesquieu"
-                    },
-                    {
-                        "text" : "Immanuel Kant"
-                    },
-                    {
-                        "text" : "Platon"
-                    }
-                ]
             }
         ]
     }
