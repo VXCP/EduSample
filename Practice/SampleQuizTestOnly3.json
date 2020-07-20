@@ -59,9 +59,21 @@
     },
     {
         "type": "choice",
+        "text": "What is the difference between glColor3d and glColor3f?",
+        "true":[
+            "glColor3d only sets RGB, while glColor3f sets R,G,B and A"
+        ],
+        "false":[
+            "glColor3d allows 3d color operations, while glColor3f only allows 8-bit",
+            "glColor3d takes double arguments, while glColor3f takes float arguments",
+            "glColor3d is in real space, glColor3f is in integer space"
+        ]
+    },
+    {
+        "type": "choice",
         "list": [
             {
-                "text": "# Ktorý filozof sa označuje ako zakladateľ tomizmu?",
+                "text": "### Ktorý filozof sa označuje ako zakladateľ tomizmu?",
                 "singleChoice": true,
                 "answer_detail": "",
                 "imageFit" : "fill",
@@ -100,7 +112,7 @@
         "type": "choice",
         "list": [
             {
-                "text": "# Ktorý filozof sa označuje ako zakladateľ tomizmu?",
+                "text": "### Ktorý filozof sa označuje ako zakladateľ tomizmu?",
                 "singleChoice": true,
                 "answer_detail": "",
                 "imageFit" : "none",
@@ -256,7 +268,7 @@
         "type": "choice",
         "list": [
             {
-                "text": "Ktorý filozof sa označuje ako zakladateľ tomizmu?",
+                "text": "### Ktorý filozof sa označuje ako zakladateľ tomizmu?",
                 "singleChoice": true,
                 "imageFit" : "cover",
                 "answer_detail": "",
