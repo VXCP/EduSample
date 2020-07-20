@@ -1,147 +1,147 @@
 [
-{
-    "type": "map",
-    "map": "@~/Assets/pc-parts.jpg",
-    "hide": [
-        "r: 0.05:0.12 : 0.3:0.3   | b-rounded: 0.02:0.02:0.02:0.02",
-        "r: 0.03:0.73 : 0.3:0.92  | b-rounded: 0.02:0.02:0.02:0.02",
-        "r: 0.37:0.06 : 0.62:0.24 | b-rounded: 0.02:0.02:0.02:0.02",
-        "r: 0.36:0.725 : 0.61:0.89| b-rounded: 0.02:0.02:0.02:0.02",
-        "r: 0.68:0.07 : 0.95:0.26 | b-rounded: 0.02:0.02:0.02:0.02",
-        "r: 0.68:0.732 : 0.96:0.92| b-rounded: 0.02:0.02:0.02:0.02"
-    ],
-    "answers": [{
-            "text": "Mouse",
-            "position": "0.48:0.8",
-            "size": "0.2 : 0.2",
-            "sound": "@~/Sounds/alarm.ogg"
-        },
         {
-            "text": "Printer",
-            "position": "0.18:0.2",
-            "size": "0.2:0.2"
-        },
-        {
-            "text": "Case",
-            "position": "0.82:0.18",
-            "sound": "@~/Sounds/harmonicaCoin.mp3",
-            "size": "0.1:0.1"
-        },
-        {
-            "text": "Keyboard",
-            "position": "0.17:0.81",
-            "size": "0.5:0.5",
-            "sound": "@../Sounds/bicycle-horn-1.wav"
-        },
-        {
-            "text": "WiFi",
-            "position": "0.82:0.83",
-            "size": "1.0:1.0"
-        },
-        {
-            "text": "Monitor",
-            "position": "0.5:0.15"
-        }
-    ]
-},
-{
-    "type": "map",
-    "map": "@~/Assets/SlovakiaMapBlank.png",
-    "answers": [{
-            "position": "0.45:0.47",
-            "size": "0.2 : 0.13",
-            "image": "@~/Assets/SlovakiaFlag.png"
-        },
-        {
-            "position": "0.2:0.32",
-            "size": "0.2 : 0.13",
-            "image": "@~/Assets/CzechFlag.png"
-        },
-        {
-            "position": "0.5:0.2",
-            "size": "0.2 : 0.13",
-            "image": "@~/Assets/PolandFlag.png"
-        },
-        {
-            "position": "0.95:0.5",
-            "size": "0.2 : 0.13",
-            "image": "@~/Assets/UkraineFlag.png"
-        },
-        {
-            "position": "0.5:0.8",
-            "size": "0.2 : 0.13",
-            "image": "@~/Assets/HungaryFlag.png"
-        },
-        {
-            "position": "0.85:0.9",
-            "size": "0.2 : 0.13",
-            "image": "@~/Assets/RomaniaFlag.png"
-        },
-        {
-            "position": "0.05:0.55",
-            "size": "0.2 : 0.13",
-            "image": "@~/Assets/AustriaFlag.png"
-        }
-    ]
-},
-{
-    "type": "pairs",
-    "text": "Priraďte k umelcom umelcké smery, ktorých boli súčasťou.",
-    "answer_detail": "Just because it is",
-    "pairs": [
-        [
-            "Claude Monet",
-            "Impresionizmus"
+        "type": "map",
+        "map": "@~/Assets/pc-parts.jpg",
+        "hide": [
+            "r: 0.05:0.12 : 0.3:0.3   | b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.03:0.73 : 0.3:0.92  | b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.37:0.06 : 0.62:0.24 | b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.36:0.725 : 0.61:0.89| b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.68:0.07 : 0.95:0.26 | b-rounded: 0.02:0.02:0.02:0.02",
+            "r: 0.68:0.732 : 0.96:0.92| b-rounded: 0.02:0.02:0.02:0.02"
         ],
-        [
-            "Pablo Picasso",
-            "Kubizmus"
-        ],
-        [
-            "Leonardo Da Vinci",
-            "Renesancia"
-        ],
-        [
-            "Vincent Van Gogh",
-            "Postimpresionizmus"
-        ],
-        [
-            "Rembrandr",
-            "Barok"
-        ]
-    ]
-},
-{
-    "type": "fulltext",
-    "answer_detail": "Toto je detailný popis a vysvetlenie postupu k riešeniu správnej odpovede",
-    "case_sensitive": false,
-        "text": "__V tejto časti je priestor pre zadanie úlohy__  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend mi a neque ornare, quis vehicula mauris efficitur. Vestibulum ex urna, facilisis vitae luctus id, suscipit vestibulum turpis. Vestibulum sit amet neque in lorem rhoncus ultricies eget ut quam. Duis enim sapien, faucibus eu convallis non, varius nec mi. Praesent efficitur, lorem eu malesuada viverra, tortor mauris pulvinar metus, sagittis efficitur erat lorem eget elit. Phasellus nec massa aliquam, laoreet elit vitae, elementum justo. Sed ornare odio non aliquet lobortis. Morbi aliquet felis vitae risus vehicula, eget varius metus eleifend. Sed commodo arcu non porta placerat",
         "answers": [{
-                "label": "Podotázka s číselnou odpoveďou",
-                "value": [
-                    40.0,
-                    50
-                ],
-                "max_error": 0.7,
-                "units": "cm"
+                "text": "Mouse",
+                "position": "0.48:0.8",
+                "size": "0.2 : 0.2",
+                "sound": "@~/Sounds/alarm.ogg"
             },
             {
-                "case_sensitive": false,
-                "label": "Podotázka s textovou odpoveďou",
-                "value": [
-                    "Odpoveď v správnom poradí",
-                    "Answer"
-                ]        
+                "text": "Printer",
+                "position": "0.18:0.2",
+                "size": "0.2:0.2"
             },
             {
-                "label": "Podotázka s pravdivostnou hodnotou",
-                "value": true              
+                "text": "Case",
+                "position": "0.82:0.18",
+                "sound": "@~/Sounds/harmonicaCoin.mp3",
+                "size": "0.1:0.1"
+            },
+            {
+                "text": "Keyboard",
+                "position": "0.17:0.81",
+                "size": "0.5:0.5",
+                "sound": "@../Sounds/bicycle-horn-1.wav"
+            },
+            {
+                "text": "WiFi",
+                "position": "0.82:0.83",
+                "size": "1.0:1.0"
+            },
+            {
+                "text": "Monitor",
+                "position": "0.5:0.15"
             }
         ]
-},
-{
-    "type": "filltext",
-    "case_sensitive": true,
-    "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??Second?? incididunt ut labore et, Lorem ipsum ??Third??"
-}
+    },
+    {
+        "type": "map",
+        "map": "@~/Assets/SlovakiaMapBlank.png",
+        "answers": [{
+                "position": "0.45:0.47",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/SlovakiaFlag.png"
+            },
+            {
+                "position": "0.2:0.32",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/CzechFlag.png"
+            },
+            {
+                "position": "0.5:0.2",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/PolandFlag.png"
+            },
+            {
+                "position": "0.95:0.5",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/UkraineFlag.png"
+            },
+            {
+                "position": "0.5:0.8",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/HungaryFlag.png"
+            },
+            {
+                "position": "0.85:0.9",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/RomaniaFlag.png"
+            },
+            {
+                "position": "0.05:0.55",
+                "size": "0.2 : 0.13",
+                "image": "@~/Assets/AustriaFlag.png"
+            }
+        ]
+    },
+    {
+        "type": "pairs",
+        "text": "Priraďte k umelcom umelcké smery, ktorých boli súčasťou.",
+        "answer_detail": "Just because it is",
+        "pairs": [
+            [
+                "Claude Monet",
+                "Impresionizmus"
+            ],
+            [
+                "Pablo Picasso",
+                "Kubizmus"
+            ],
+            [
+                "Leonardo Da Vinci",
+                "Renesancia"
+            ],
+            [
+                "Vincent Van Gogh",
+                "Postimpresionizmus"
+            ],
+            [
+                "Rembrandr",
+                "Barok"
+            ]
+        ]
+    },
+    {
+        "type": "fulltext",
+        "answer_detail": "Toto je detailný popis a vysvetlenie postupu k riešeniu správnej odpovede",
+        "case_sensitive": false,
+            "text": "__V tejto časti je priestor pre zadanie úlohy__  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend mi a neque ornare, quis vehicula mauris efficitur. Vestibulum ex urna, facilisis vitae luctus id, suscipit vestibulum turpis. Vestibulum sit amet neque in lorem rhoncus ultricies eget ut quam. Duis enim sapien, faucibus eu convallis non, varius nec mi. Praesent efficitur, lorem eu malesuada viverra, tortor mauris pulvinar metus, sagittis efficitur erat lorem eget elit. Phasellus nec massa aliquam, laoreet elit vitae, elementum justo. Sed ornare odio non aliquet lobortis. Morbi aliquet felis vitae risus vehicula, eget varius metus eleifend. Sed commodo arcu non porta placerat",
+            "answers": [{
+                    "label": "Podotázka s číselnou odpoveďou",
+                    "value": [
+                        40.0,
+                        50
+                    ],
+                    "max_error": 0.7,
+                    "units": "cm"
+                },
+                {
+                    "case_sensitive": false,
+                    "label": "Podotázka s textovou odpoveďou",
+                    "value": [
+                        "Odpoveď v správnom poradí",
+                        "Answer"
+                    ]        
+                },
+                {
+                    "label": "Podotázka s pravdivostnou hodnotou",
+                    "value": true              
+                }
+            ]
+    },
+    {
+        "type": "filltext",
+        "case_sensitive": true,
+        "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??Second?? incididunt ut labore et, Lorem ipsum ??Third??"
+    }
 ]
