@@ -3,7 +3,7 @@
         "type": "choice",
         "list": [
             {
-                "text": "# Ktorá z následujúcich rovníc definuje vzťah rovnosti medzi energiou a hmotnosťou, ktorú opísal Albert Einstein v teorii relativity?",
+                "text": "### Ktorá z následujúcich rovníc definuje vzťah rovnosti medzi energiou a hmotnosťou, ktorú opísal Albert Einstein v teorii relativity?",
                 "singleChoice": true,
                 "answer_detail": "",
                 "true": [ 
@@ -22,7 +22,7 @@
         "type": "choice",
         "list": [
             {
-                "text": "# Ktorý filozof sa označuje ako zakladateľ tomizmu?",
+                "text": "### Ktorý filozof sa označuje ako zakladateľ tomizmu?",
                 "singleChoice": true,
                 "answer_detail": "",
                 "imageFit" : "cover",
@@ -59,10 +59,21 @@
     },
     {
         "type": "choice",
-        "text": "What is the difference between glColor3d and glColor3f?",
+        "text": "### What are the four types of clearable buffers?",
         "true":[
-            "glColor3d takes double arguments, while glColor3f takes float arguments",
-            "glColor3d only sets RGB, while glColor3f sets R,G,B and A"
+            "Color, Depth, Stencil, Accumulation"
+        ],
+        "false":[
+            "Color, HDR, LTR, VAO",
+            "Fragment, Vertex, Vector, Color",
+            "Color, Depth, Stencil, Fragment"
+        ]
+    },
+    {
+        "type": "choice",
+        "text": "### What is the difference between glColor3d and glColor3f?",
+        "true":[
+            "glColor3d takes double arguments, while glColor3f takes float arguments"
         ],
         "false":[
             "glColor3d allows 3d color operations, while glColor3f only allows 8-bit",
@@ -186,7 +197,7 @@
     {
         "type": "sort",
         "imageFit": "fill",
-        "text": "### Zoraďte prvky podľa ich protónového čísla __Z__ od najniŽšieho po najvyšší",
+        "text": "### Zoraďte prvky podľa ich protónového čísla __Z__ od najnižšieho po najvyšší",
         "sort": [
             {
                 "text": "Vodík",
