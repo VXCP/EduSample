@@ -16,8 +16,8 @@
             "title" : "Veľkosť",
             "content": "1-2 µm",
             "detail": [
-                "#### Porovnanie veľkosti mikroorganizmov\n",
-                "|Mikroorganizmus                        |  Veľkosť  |\n",
+                "##### Porovnanie veľkosti mikroorganizmov\n",
+                "| ### Mikroorganizmus                        |  ### Veľkosť  |\n",
                 "|---------------------------------------|----------|\n",
                 "|Vírusy                              |0.02-0.3 µm |\n",
                 "|___Prokaryotická bunka___           | ___1-2 µm___ |\n",
