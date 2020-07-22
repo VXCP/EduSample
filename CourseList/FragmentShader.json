@@ -3,7 +3,7 @@
     "thumbnail": "@../Assets/fragment-thumbnail.jpg",
     "hierarchy": {
         "source": "@~/Assets/OpenGL-Pipeline.png",
-        "position": "0.5:0.83"
+        "position": "0.5:0.81"
     },
     "quiz":["@../Practice/SampleQuiz.json"],
     "facts": [
