@@ -17,11 +17,11 @@
             "content": "1-2 µm",
             "detail": [
                 "#### Porovnanie veľkosti mikroorganizmov\n",
-                "|Mikroorganizmus                        |  Typ                                | Veľkosť  |\n",
-                "|---------------------------------------|-------------------------------------|----------|\n",
-                "|Vírusy                             |Poliovírus, Bakteriofág              | 0.02-0.3 µm |\n",
-                "|__Prokaryotická bunka__                |Sinice, Archeóny                     | 1-2 µm |\n",
-                "|Eukaryotická bunka                 |Bunka kože,  Neurón...               | 10-100 µm |\n"
+                "|Mikroorganizmus                        |  Veľkosť  |\n",
+                "|---------------------------------------|----------|\n",
+                "|Vírusy                              |0.02-0.3 µm |\n",
+                "|__Prokaryotická bunka__                | 1-2 µm |\n",
+                "|Eukaryotická bunka                 | 10-100 µm |\n"
             ]
         }
     ],
