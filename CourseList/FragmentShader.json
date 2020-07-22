@@ -2,8 +2,8 @@
     "title": "Fragment Shader",
     "thumbnail": "@../Assets/fragment-thumbnail.jpg",
     "hierarchy": {
-        "source": "@~/Assets/fragment_shader_pipeline.png",
-        "position": "0.5:0.8"
+        "source": "@~/Assets/OpenGL-Pipeline.png",
+        "position": "0.5:0.83"
     },
     "quiz":["@../Practice/SampleQuiz.json"],
     "facts": [
