@@ -17,11 +17,11 @@
             "content": "1-2 µm",
             "detail": [
                 "## Významné ocenenia\n",
-                "| :   MAthJax \\| \\| Image   : |||",
-                "|------------ | :-----------: | -----------: | ",
-                "|Apple        | : Apple :     | Apple        \\",
-                "|Banana       | Banana        | Banana       \\",
-                "|Orange       | Orange        | Orange       |"
+                "| :   MAthJax \\| \\| Image   : |||\n",
+                "|------------ | :-----------: | -----------: |\n ",
+                "|Apple        | : Apple :     | Apple        \\ \n",
+                "|Banana       | Banana        | Banana       \\ \n",
+                "|Orange       | Orange        | Orange       |\n"
             ]
         }
     ],
