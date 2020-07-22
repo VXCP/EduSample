@@ -18,10 +18,11 @@
             "detail": [
                 "## Významné ocenenia\n",
                 "| :   MAthJax \\| \\| Image   : |||\n",
-                "|------------ | :-----------: | -----------: |\n ",
-                "|Apple        | : Apple :     | Apple        \\ \n",
-                "|Banana       | Banana        | Banana       \\ \n",
-                "|Orange       | Orange        | Orange       |\n"
+                "|-------------|---------------|--------------| \n",
+                "|Apple        | : Apple :     | Apple        | \n",
+                "|             |---------------|--------------| \n",
+                "|Banana       | Banana        | Banana       | \n",
+                "|Orange       | Orange        | Orange       | \n"
             ]
         }
     ],
