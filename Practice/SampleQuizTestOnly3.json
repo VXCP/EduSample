@@ -373,7 +373,8 @@
                 "### Vyriešte nasledujúce 3 rovnice o 3 neznámych:\n",
                 "$$x+y=28$$\n",
                 "$$z+x=30$$\n", 
-                "$$y+z=32$$\n"
+                "$$y+z=32$$\n",
+                "\\ce{2CO2+2H2O->2H2CO3}"
             ],
             "answers": [{
                     "label": "Podotázka s číselnou odpoveďou",
@@ -402,7 +403,7 @@
                     ],
                     "max_error": 0.0,
                     "units": "= x"
-                },
+                }
             ]
     }
 ]
