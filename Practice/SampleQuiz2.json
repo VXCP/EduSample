@@ -73,45 +73,6 @@
         ]
     },
     {
-        "type": "truth",
-        "true": [{
-                "text": "This should be TRUE __with__ Sound and Visual",
-                "sound": "@",
-                "visual": "@~/Example.png"
-            },
-            "This should be TRUE __without__ anything - Simple String",
-            {
-                "text": "This should be TRUE __with__ Sound",
-                "sound": "@"
-            },
-            {
-                "text": "This should be TRUE __with__ Visual",
-                "visual": "@~/Example.png"
-            },
-            {
-                "text": "This should be TRUE __without__ anything - Object"
-            }
-        ],
-        "false": [{
-                "text": "This should be FALSE __with__ Sound and Visual",
-                "sound": "@",
-                "visual": "@~/Example.png"
-            },
-            "This should be FALSE __without__ anything - Simple String",
-            {
-                "text": "This should be FALSE __with__ Sound",
-                "sound": "@"
-            },
-            {
-                "text": "This should be FALSE __with__ Visual",
-                "visual": "@~/Example.png"
-            },
-            {
-                "text": "This should be FALSE __without__ anything - Object"
-            }
-        ]
-    },
-    {
         "type": "sort",
         "text": "Welcome To Sort Question. Please sort the following constants by value $$15\\dot15$$ from __highest__ to __lowest__ $$Test$$ :D",
         "sort": [
@@ -122,12 +83,12 @@
             {
                 "text": "√5",
                 "partial": "2.236",
-                "visual": "@~/Example.png"
+                "image": "@~/Example.png"
             },
             {
                 "text": "Ježko Divý",
                 "partial": "2.236",
-                "visual": "@../Assets/quicksort.gif"
+                "image": "@../Assets/quicksort.gif"
             }
         ]
     },

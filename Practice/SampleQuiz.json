@@ -50,20 +50,20 @@
             },
             {
                 "text": "2.4",
-                "visual": "@~/Assets/quicksort.gif",
+                "image": "@~/Assets/quicksort.gif",
                 "sound": "@../Sounds/harmonicaCoin.mp3"
     
             },
             {
                 "text": "√5",
                 "partial": "2.236",
-                "visual": "@~/Example.png",
+                "image": "@~/Example.png",
                 "sound": "@../Sounds/zipclic.flac"
             },
             {
                 "text": "$$Jezko Math$$",
                 "partial": "2.236",
-                "visual": "@../Assets/quicksort.gif",
+                "image": "@../Assets/quicksort.gif",
                 "sound": "@~/Sounds/harmonicaCoin.mp3"
             }
         ]
