@@ -179,30 +179,30 @@
             {
                 "text": "Brachiosaurus",
                 "partial": "30.5 m",
-                "visual": "@~/Assets/Brachiosaurus.png"
+                "image": "@~/Assets/Brachiosaurus.png"
             },            {
                 "text": "Tyrannosaurus",
                 "partial": "15.2 m",
-                "visual": "@~/Assets/Tyrannosaurus.png"
+                "image": "@~/Assets/Tyrannosaurus.png"
             },            {
                 "text": "Spinosaurus",
                 "partial": "12.2 m",
-                "visual": "@~/Assets/Spinosaurus.png"
+                "image": "@~/Assets/Spinosaurus.png"
             },
             {
                 "text": "Megalosaurus",
                 "partial": "7.9 m",
-                "visual": "@~/Assets/Megalosaurus.png"
+                "image": "@~/Assets/Megalosaurus.png"
             },
             {
                 "text": "Chasmosaurus",
                 "partial": "5.2 m",
-                "visual": "@~/Assets/Chasmosaurus.png"
+                "image": "@~/Assets/Chasmosaurus.png"
             },
             {
                 "text": "Ankylosaurus",
                 "partial": "3.4 m",
-                "visual": "@~/Assets/Ankylosaurus.png"
+                "image": "@~/Assets/Ankylosaurus.png"
             }
         ]
     },
@@ -278,40 +278,40 @@
             {
                 "text": "Merkúr",
                 "partial": "57.9 mil. km",
-                "visual": "@~/Assets/Mercury.jpg"
+                "image": "@~/Assets/Mercury.jpg"
             },            {
                 "text": "Venuša",
                 "partial": "108.2 mil. km",
-                "visual": "@~/Assets/Venus.jpg"
+                "image": "@~/Assets/Venus.jpg"
             },            {
                 "text": "Zem",
                 "partial": "149.6 mil. km",
-                "visual": "@~/Assets/Earth.jpg"
+                "image": "@~/Assets/Earth.jpg"
             },
             {
                 "text": "Mars",
                 "partial": "227.9 mil. km",
-                "visual": "@~/Assets/Mars.jpg"
+                "image": "@~/Assets/Mars.jpg"
             },
             {
                 "text": "Jupiter",
                 "partial": "778.3 mil. km",
-                "visual": "@~/Assets/Jupiter.jpg"
+                "image": "@~/Assets/Jupiter.jpg"
             },
             {
                 "text": "Saturn",
                 "partial": "1427.0 mil. km",
-                "visual": "@~/Assets/Saturn.png"
+                "image": "@~/Assets/Saturn.png"
             },
             {
                 "text": "Urán",
                 "partial": "2871.0 mil. km",
-                "visual": "@~/Assets/Uranus.jpg"
+                "image": "@~/Assets/Uranus.jpg"
             },
             {
                 "text": "Neptún",
                 "partial": "4497.1 mil. km",
-                "visual": "@~/Assets/Neptune.jpg"
+                "image": "@~/Assets/Neptune.jpg"
             }
         ]
     },

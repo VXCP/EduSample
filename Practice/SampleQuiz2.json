@@ -135,7 +135,7 @@
     {
         "type": "pairs",
         "visual": "@~/Example.png",
-        "sound": [
+        "sounds": [
             "@",
             "@",
             "@",

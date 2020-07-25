@@ -77,7 +77,7 @@
             "choicesCount": [2,4,6,8],
             "text": "Zadanie otazky >> $$\\frac{Hello}{World}$$ Second $$5\\omega a+b=c^{2}$$ WTF $$\\sqrt{\\frac{a}{b}}$$ Rovnica $\\sqrt{\\frac{a}{b}}$ Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com) That is very intersting because i have a problem with new lines sooooooo well at all noone knows what is going on but lol? LOOOOOOOOOOOOOOOL? Whaaaat is that noooone know lalalalala laaaaaaaaaaaaa Blue oyster what Mauris elementum mauris vitae tortor. In convallis. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Donec quis nibh at felis congue commodo. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris metus. Maecenas libero. Et harum quidem rerum facilis est et expedita distinctio. Mauris dictum facilisis augue. Ut tempus purus at lorem. Vestibulum fermentum tortor id mi. ",
             "visual": "@~/Example.png",
-            "sound" : [{
+            "sounds" : [{
                             "title": "Harmonica Coin 1",
                             "credits": "Some Author or License 1",
                             "source": "@~/Sounds/harmonicaCoin.mp3"

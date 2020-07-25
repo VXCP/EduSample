@@ -1,7 +1,8 @@
 {
     "title": "Lecture Ex.",
     "thumbnail": "@../Assets/nikola_tesla.jpg",
-    "sound" : [{
+    "sounds" : [
+        {
             "title": "Audio 1",
             "credits": "Some Author or License 1",
             "source": "@~/Sounds/harmonicaCoin.mp3"
