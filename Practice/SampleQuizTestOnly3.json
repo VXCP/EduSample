@@ -383,7 +383,7 @@
         ],
         "case_sensitive": false,
             "text": [
-                "### Vyriešte nasledujúce 3 rovnice o 3 neznámych:\n",
+                "### Vyriešte nasledujúcu sústavu 3 rovníc o 3 neznámych:\n",
                 "$$x+y=28$$\n",
                 "$$z+x=30$$\n", 
                 "$$y+z=32$$\n"
