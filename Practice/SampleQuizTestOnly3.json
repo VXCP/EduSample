@@ -344,6 +344,11 @@
             ]
     },
     {
+        "type": "filltext",
+        "case_sensitive": false,
+        "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??Second?? incididunt ut labore et, dolore ??Third?? aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
         "type": "fulltext",
         "answer_detail": [
             "## Postup riešenia \n",
