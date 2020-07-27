@@ -6,20 +6,20 @@
         {
             "title": "* Narodenie",
             "content": "10. Jul 1856",
-            "subcontent": "Belehrad, Srbsko",
+            "subcontent": "Smiljan, Rakúske cisárstvo ",
             "detail" : "Detail 1"
         },
         {
             "title": "† Úmrtie",
             "content": "7. Jan 1943",
-            "subcontent": "New York, NY USA",
-            "detail" : "Detail 1"
+            "subcontent": "New York, USA",
+            "detail" : "Detail 2"
         },
         {
             "title": "Zamestnanie",
             "content": "Vedec",
             "subcontent": "Fyzik, Konštruktér",
-            "detail" : "Detail 1"
+            "detail" : "Detail 3"
         }
     ],
 
@@ -80,6 +80,5 @@
         "|1893                                   | Medaila Elliotta Cressona           |\n",
         "|1916                                   | Edisonova medaila;                  |\n",
         "|1934                                   | Medaila Johna Scotta                |\n"
-
     ]
 }
