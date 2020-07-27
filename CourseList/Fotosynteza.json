@@ -17,7 +17,7 @@
             "subcontent": "Chloroplast"
         }
     ],
-    "brief": "Premena anroganických látok na organické, za pomoci slnečného svetla.\n $$\\ce{12H2O + 6CO2 -> C6H12O6 + 6O2 + 6H20}$$",
+    "brief": "Premena anroganických látok na organické, za pomoci slnečného svetla.\n $$\\ce{12H2O + 6CO2 -> C6H12O6 + 6O2 + 6H2O}$$",
     "visual": {
         "source": "@~/Assets/Photosynthesis.png",
         "credits":"From Wikipedia by Somepics\nCC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/"
