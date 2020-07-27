@@ -26,7 +26,7 @@
         }
     ],
 
-    "brief": "Prokaryotické bunky tvoria výhradne jednobunkové organizmi, akými sú baktérie, archeóny a sinice. Taktiež sú menšie, jednoduchšie a fylogeneticky mladšie ako eukaryotické bunky.",
+    "brief": "Prokaryotické bunky tvoria výhradne jednobunkové organizmy, akými sú baktérie, archeóny a sinice. Taktiež sú menšie, jednoduchšie a fylogeneticky mladšie ako eukaryotické bunky.",
     "visual": {
         "source": "@../Assets/Prokaryote.png"
     },
