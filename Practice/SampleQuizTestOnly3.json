@@ -88,7 +88,7 @@
         "type": "choice",
         "list": [
             {
-                "text": "### Ktorá z následujúcich rovníc definuje vzťah rovnosti medzi energiou a hmotnosťou, ktorú opísal Albert Einstein v teorii relativity?",
+                "text": "### Ktorá z následujúcich rovníc definuje vzťah rovnosti medzi energiou a hmotou, ktorú opísal Albert Einstein v teorii relativity?",
                 "singleChoice": true,
                 "answer_detail": "",
                 "true": [ 
@@ -370,15 +370,15 @@
             "## Skúška správnosti:\n",
             "$L_{1} = 13+15=28$\n\n",
             "$P_{1} = 28$\n\n",
-            "$L_{1} = P1$\n\n",
+            "$\\doubleunderline{L_{1} = P1}$\n\n",
             "##### \n",
             "$L_{2} = 17+13=30$\n\n",
             "$P_{2} = 30$\n\n",
-            "$L_{2} = P2$\n\n",
+            "$\\doubleunderline{L_{2} = P2}$\n\n",
             "##### \n",
             "$L_{3} = 15+17=32$\n\n",
             "$P_{3} = 32$\n\n",
-            "$L_{3} = P3$\n\n"
+            "$\\doubleunderline{L_{3} = P3}$\n\n"
 
         ],
         "case_sensitive": false,
