@@ -396,17 +396,20 @@
             "answers": [{
                     "label": "Hodnota neznámej x",
                     "value": [13],
-                    "max_error": 0.0
+                    "max_error": 0.0,
+                    "units" : "=x"
                 },
                 {
                     "label": "Hodnota neznámej y",
                     "value": [15],
-                    "max_error": 0.0
+                    "max_error": 0.0,
+                    "units" : "=y"
                 },
                 {
                     "label": "Hodnota neznámej z",
                     "value": [17],
-                    "max_error": 0.0
+                    "max_error": 0.0,
+                    "units" : "=z"
                 }
             ]
     }
