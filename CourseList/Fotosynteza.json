@@ -17,7 +17,7 @@
             "subcontent": "Chloroplast"
         }
     ],
-    "brief": "Premena anroganických látok na organické, za pomoci slnečného svetla.\n\n $$\\ce{12H20 + 6CO2 -> C6H12O6 + 6O2 + 6H20}$$",
+    "brief": "Premena anroganických látok na organické, za pomoci slnečného svetla.\n $$\\ce{12H2O + 6CO2 -> C6H12O6 + 6O2 + 6H20}$$",
     "visual": {
         "source": "@~/Assets/Photosynthesis.png"
     },
@@ -50,7 +50,7 @@
         "### __Koenzými__\n",       
         
         "# Priebeh fotosyntézy \n\n",
-        "$$\\ce{12H20 + 6CO2 -> C6H12O6 + 6O2 + 6H20}$$\n",
+        "$$\\ce{12H2O + 6CO2 -> C6H12O6 + 6O2 + 6H2O}$$\n",
 
         "## Fotosystém I\n",
         "Uskutočňuje 1.svetelnú reakciu (__Fotofosforyláciu__) aktivovanú fotónmi do 730nm.",
@@ -62,6 +62,6 @@
         "$$\\ce{NADP+ -> NADP + H+ }$$\n",
         "$$\\ce{2OH- -> 2OH + 2e-}$$\n",
         "$$\\ce{2OH- -> H2O + 1/2O2}$$\n",
-        "$$\\ce{ADP + H3PO4 -> ATP + H20}$$"
+        "$$\\ce{ADP + H3PO4 -> ATP + H2O}$$"
     ]
 }
