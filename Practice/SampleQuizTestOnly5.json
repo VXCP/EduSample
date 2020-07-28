@@ -15,7 +15,7 @@
         "case_sensitive": false,
         "fulltext": false,
         
-            "text": "### Zložte správne nasledujúce výroky v latinčine",
+            "text": "### Zložte správne nasledujúce výroky v latinčine.",
             "answers": [                {
                 "case_sensitive": false,
                 "label": "Brada nerobí filozofa.",
@@ -43,7 +43,7 @@
         "type": "choice",
         "list": [
             {
-                "text": "### Ktoré z nasledujúcich fyzikálnych rovníc sú pravdivé",
+                "text": "### Ktoré z nasledujúcich fyzikálnych rovníc sú pravdivé?",
                 "answer_detail": "",
                 "true": [ 
                     "$$E=mc^{2}$$",
