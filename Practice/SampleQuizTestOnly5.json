@@ -47,7 +47,7 @@
                 "answer_detail": "",
                 "true": [ 
                     "$$E=mc^{2}$$",
-                    "$$F_{vzt} = V*\\rho k*g$$"
+                    "$$F_{vzt} = V*\\rho _{k}*g$$"
                 ],
                 "false": [
                     "$$v=mt$$",
