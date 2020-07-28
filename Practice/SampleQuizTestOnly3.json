@@ -346,7 +346,7 @@
     {
         "type": "filltext",
         "case_sensitive": false,
-        "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??Second?? incididunt ut labore et, dolore ??Third?? aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "text": "Slovenská republika vznikla 1.1.??1993??. Jej hlavným mestom je ??Bratislava??. Cez hlavné mesto Slovenskej republiky preteká rieka ??Dunaj??. Najvyšším pohorím Slovenská sú Vysoké ??Tatry??. Tie sa nachádzajú na severovýchode krajiny v ??Prešovskom?? kraji."
     },
     {
         "type": "fulltext",
@@ -410,6 +410,44 @@
                     "value": [17],
                     "max_error": 0.0,
                     "units" : "=z"
+                }
+            ]
+    },
+    {
+        "type": "filltext",
+        "case_sensitive": false,
+        "text": [
+            "Slovenská republika vznikla 1.1.??1993??. Jej hlavným mestom je ??Bratislava??.",
+            " Cez hlavné mesto Slovenskej republiky preteká rieka ??Dunaj??.",
+            " Najvyšším pohorím Slovenska sú Vysoké ??Tatry??.",
+            " Tie sa nachádzajú na severovýchode krajiny v ??Prešovskom?? kraji."
+        ]
+    },
+        {
+        "type": "fulltext",
+        "answer_detail": "Toto je detailný popis a vysvetlenie postupu k riešeniu správnej odpovede",
+        "case_sensitive": false,
+            "text": "",
+            "answers": [                {
+                "case_sensitive": false,
+                "label": "Brada nerobí filozofa.",
+                "value": [
+                    "Barba non facit philoshophum"
+                ]        
+            },
+                {
+                    "case_sensitive": false,
+                    "label": "Pes psa nezožerie.",
+                    "value": [
+                        "Canis caninam non est"
+                    ]        
+                },
+                {
+                    "case_sensitive": false,
+                    "label": "Kocky sú hodené.",
+                    "value": [
+                        "Alea iacta est"
+                    ]        
                 }
             ]
     }

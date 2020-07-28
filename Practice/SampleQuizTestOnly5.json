@@ -13,7 +13,9 @@
         "type": "fulltext",
         "answer_detail": "Toto je detailný popis a vysvetlenie postupu k riešeniu správnej odpovede",
         "case_sensitive": false,
-            "text": "",
+        "fulltext": false,
+        
+            "text": "### Zložte správne nasledujúce výroky v latinčine",
             "answers": [                {
                 "case_sensitive": false,
                 "label": "Brada nerobí filozofa.",
@@ -42,7 +44,6 @@
         "list": [
             {
                 "text": "### Ktoré z nasledujúcich fyzikálnych rovníc sú pravdivé",
-                "singleChoice": true,
                 "answer_detail": "",
                 "true": [ 
                     "$$E=mc^{2}$$",
