@@ -1,7 +1,7 @@
 {
     "name" : "Example",
     "authors": "SchlockApps",
-    "enableInlineDictionary": true,
+    "enableInlineDictionary": false,
     "thumbnail" : "@./Assets/nikola_tesla.jpg",
     "sections" :[
             "Mixed Section",
