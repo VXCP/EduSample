@@ -5,7 +5,7 @@
         "source": "@~/Assets/OpenGL-Pipeline.png",
         "position": "0.12:0.82"
     },
-    "quiz":["@../Practice/SampleQuiz.json"],
+    "quiz":["@../Practice/SampleQuizTestOnly3.json", "@../Practice/SampleQuizTestOnly4.json", "@../Practice/SampleQuizTestOnly5.json"],
     "facts": [
         {
             "title": "Input",

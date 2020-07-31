@@ -1,13 +1,66 @@
 [
-
     {
-        "type": "filltext",
-        "case_sensitive": true,
-        "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??second?? incididunt ut labore et, Lorem ipsum ??First??"
+        "type": "choice",
+        "list": [
+            {
+                "text": "### Podpora zvukov pri stlaceni moznosti",
+                "visual": "@~/Example.png",
+                "answer_detail": "Just because it is",
+                "true": [
+                    {
+                        "text": "$$Hello$$",
+                        "image": "@~/Assets/Example.png",
+                        "sound": "@~/Sounds/harmonicaCoin.mp3"
+                    },
+                    {
+                        "text":"$$Hello 2$$",
+                        "sound": "@~/Sounds/sd_0.wav"
+                    },
+                    {
+                        "image": "@~/Assets/nikola_tesla.jpg",
+                        "sound": "@~/Sounds/sd_0.wav"
+                    },
+                    {
+                        "text" : "Nikola Tesla",
+                        "image": "@~/Assets/nikola_tesla.jpg",
+                        "sound": "@~/Sounds/sd_0.wav"
+                    },
+                    {
+                        "text" : "Nikola Tesla",
+                        "image": "@~/Assets/nikola_tesla.jpg",
+                        "sound": "@~/Sounds/sd_0.wav"
+                    }
+    
+                ],
+                "false": [
+                    {
+                        "text": "$$False$$",
+                        "image": "@~/Assets/Example.png",
+                        "sound": "@~/Sounds/harmonicaCoin.mp3"
+                    }
+                ]
+            }
+        ]
     },
     {
         "type": "pairs",
         "visual": ["@~/Example.png", "@~/Example.png"],
+        "sounds" : [{
+            "title": "Harmonica Coin 1",
+            "credits": "Some Author or License 1",
+            "source": "@~/Sounds/harmonicaCoin.mp3"
+        },
+        {
+            "title": "Harmonica Coin 2",
+            "credits": "Some Author or License 2",
+            "source": "@~/Sounds/harmonicaCoin.mp3"
+        },
+        {
+            "title": "Harmonica Coin 3",
+            "credits": "Some Author or License 3",
+            "source": "@~/Sounds/harmonicaCoin.mp3"
+        }
+    ],
         "text": "Welcome To Pairs Question. Please pair the objects in the list above.",
         "answer_detail": "Just because it is",
         "pairs": [
@@ -34,15 +87,15 @@
         ]},
     {
         "type": "sort",
-        "text": "Welcome To Sort Question. Please sort the following constants by value $$15\\dot15$$ from __highest__ to __lowest__ $$Test$$ :D",
+        "text": "Welcome To Sort Question. Please sort the following constants by value  from __highest__ to __lowest__ ",
         "sort": [
             {
-                "text": "$$Zooolo$$",
-                "partial" : "2.8"
+                "text": "$$9$$",
+                "partial" : "9"
             },
             {
                 "text": "π",
-                "partial" : "2.8"
+                "partial" : "3.14"
             },
             {
                 "text": "e",
@@ -50,6 +103,7 @@
             },
             {
                 "text": "2.4",
+                "partial" : "2.8",
                 "image": "@~/Assets/quicksort.gif",
                 "sound": "@../Sounds/harmonicaCoin.mp3"
     
@@ -61,69 +115,11 @@
                 "sound": "@../Sounds/zipclic.flac"
             },
             {
-                "text": "$$Jezko Math$$",
+                "text": "$$Lowest$$",
                 "partial": "2.236",
                 "image": "@../Assets/quicksort.gif",
                 "sound": "@~/Sounds/harmonicaCoin.mp3"
             }
         ]
-    },
-    {
-    "type": "choice",
-    "list": [
-        {
-            "imageFit": "fill",
-            "minTruth": 1,
-            "choicesCount": [2,4,6,8],
-            "text": "Zadanie otazky >> $$\\frac{Hello}{World}$$ Second $$5\\omega a+b=c^{2}$$ WTF $$\\sqrt{\\frac{a}{b}}$$ Rovnica $\\sqrt{\\frac{a}{b}}$ Multiple Visual choice [I'm an inline-style lineek](dict://www.google.com) That is very intersting because i have a problem with new lines sooooooo well at all noone knows what is going on but lol? LOOOOOOOOOOOOOOOL? Whaaaat is that noooone know lalalalala laaaaaaaaaaaaa Blue oyster what Mauris elementum mauris vitae tortor. In convallis. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Donec quis nibh at felis congue commodo. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris metus. Maecenas libero. Et harum quidem rerum facilis est et expedita distinctio. Mauris dictum facilisis augue. Ut tempus purus at lorem. Vestibulum fermentum tortor id mi. ",
-            "visual": "@~/Example.png",
-            "sounds" : [{
-                            "title": "Harmonica Coin 1",
-                            "credits": "Some Author or License 1",
-                            "source": "@~/Sounds/harmonicaCoin.mp3"
-                        },
-                        {
-                            "title": "Harmonica Coin 2",
-                            "credits": "Some Author or License 2",
-                            "source": "@~/Sounds/harmonicaCoin.mp3"
-                        },
-                        {
-                            "title": "Harmonica Coin 3",
-                            "credits": "Some Author or License 3",
-                            "source": "@~/Sounds/harmonicaCoin.mp3"
-                        }
-                    ],
-            "answer_detail": "Just because it is",
-            "true": [
-                {
-                    "text": "$$Hello$$",
-                    "image": "@~/Assets/Example.png",
-                    "sound": "@~/Sounds/harmonicaCoin.mp3"
-                },
-                {
-                    "text":"$$Hello 2$$",
-                    "sound": "@~/Sounds/sd_0.wav"
-                },
-                {
-                    "image": "@~/Assets/nikola_tesla.jpg",
-                    "sound": "@~/Sounds/sd_0.wav"
-                },
-                {
-                    "text" : "Nikola Tesla",
-                    "image": "@~/Assets/nikola_tesla.jpg",
-                    "sound": "@~/Sounds/sd_0.wav"
-                },
-                {
-                    "text" : "Nikola Tesla",
-                    "image": "@~/Assets/nikola_tesla.jpg",
-                    "sound": "@~/Sounds/sd_0.wav"
-                }
-
-            ],
-            "false": [
-                "$$Fake$$"
-            ]
-        }
-    ]
-}
+    }
 ]

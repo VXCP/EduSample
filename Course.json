@@ -1,6 +1,6 @@
 {
     "name" : "Example",
-    "authors": "SchlockApps",
+    "authors": "Author Here",
     "enableInlineDictionary": false,
     "thumbnail" : "@./Assets/nikola_tesla.jpg",
     "sections" :[
@@ -17,11 +17,11 @@
             "Section No.2",
             [
                 "@./CourseList/Example.json",
-                "@./CourseList/TestInit.json",
-                "@./CourseList/Test1_1.json",
-                "@./CourseList/Test1.json",
-                "@./CourseList/Test2.json",
-                "@./CourseList/Test3.json"
+                "@./CourseList/Example.json",
+                "@./CourseList/Example.json",
+                "@./CourseList/Example.json",
+                "@./CourseList/Example.json",
+                "@./CourseList/Example.json"
             ]
     ]
 }

@@ -1,7 +1,7 @@
 {
     "title": "Bubble sort",
     "thumbnail": "@~/Assets/BubbleSortThumbnail.png",
-    "quiz":["@~/Practice/SampleQuiz.json"],
+    "quiz":["@../Practice/SampleQuizTestOnly5.json"],
     "facts": [
         {
             "title": "Stable",

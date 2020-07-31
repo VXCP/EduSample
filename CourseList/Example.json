@@ -44,10 +44,7 @@
                 "- JPG, JPEG \n",
                 "- BMP \n",
                 "- GIF \n",
-                "- WEBP \n",
-                "- $$\\frac{A}{2*B}$$",
-                "## Partially Supported Image files\n",
-                "- SVG [Not working very often :(]"
+                "- WEBP \n"
             ]
         },
         {

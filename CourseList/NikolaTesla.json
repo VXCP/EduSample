@@ -1,7 +1,7 @@
 {
     "title": "Nikola Tesla",
     "thumbnail": "@../Assets/nikola_tesla.jpg",
-    "quiz":["@../Practice/SampleQuiz.json","@../Practice/SampleQuiz2.json"],
+    "quiz":["@../Practice/SampleQuizTestOnly3.json"],
     "facts": [
         {
             "title": "* Narodenie",

@@ -19,7 +19,8 @@
             {
                 "text": "Printer",
                 "position": "0.18:0.2",
-                "size": "0.2:0.2"
+                "size": "0.2:0.2",
+                "sound": "@~/Sounds/alarm.ogg"
             },
             {
                 "text": "Case",
@@ -35,11 +36,13 @@
             },
             {
                 "text": "WiFi",
-                "position": "0.82:0.83"
+                "position": "0.82:0.83",
+                "sound": "@~/Sounds/alarm.ogg"
             },
             {
                 "text": "Monitor",
-                "position": "0.5:0.15"
+                "position": "0.5:0.15",
+                "sound": "@../Sounds/bicycle-horn-1.wav"
             }
         ]
     },
@@ -137,10 +140,5 @@
                     "value": true              
                 }
             ]
-    },
-    {
-        "type": "filltext",
-        "case_sensitive": true,
-        "text": "Lorem ipsum ??First?? sit amet, consectetur adipiscing elit, sed do eiusmod ??Second?? incididunt ut labore et, Lorem ipsum ??Third??"
     }
 ]
