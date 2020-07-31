@@ -1,6 +1,5 @@
 {
     "title": "Fotosyntéza",
-    "thumbnail": "@../Assets/PhotosynthesisThumbnail.png",
     "quiz":["@../Practice/SampleQuizTestOnly3.json", "@../Practice/SampleQuizTestOnly4.json", "@../Practice/SampleQuizTestOnly5.json"],
     "facts": [
         {

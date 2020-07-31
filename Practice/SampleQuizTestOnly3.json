@@ -339,11 +339,6 @@
             ]
     },
     {
-        "type": "filltext",
-        "case_sensitive": false,
-        "text": "Slovenská republika vznikla 1.1.??1993??. Jej hlavným mestom je ??Bratislava??. Cez hlavné mesto Slovenskej republiky preteká rieka ??Dunaj??. Najvyšším pohorím Slovenská sú Vysoké ??Tatry??. Tie sa nachádzajú na severovýchode krajiny v ??Prešovskom?? kraji."
-    },
-    {
         "type": "fulltext",
         "answer_detail": [
             "## Postup riešenia \n",
@@ -420,9 +415,8 @@
     },
         {
         "type": "fulltext",
-        "answer_detail": "Toto je detailný popis a vysvetlenie postupu k riešeniu správnej odpovede",
         "case_sensitive": false,
-            "text": "",
+            "text": "### Preložte nasledujúce výroky do latinčiny.",
             "answers": [                {
                 "case_sensitive": false,
                 "label": "Brada nerobí filozofa.",
