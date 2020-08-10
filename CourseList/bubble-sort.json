@@ -10,14 +10,12 @@
         },
                 {
             "title": "Structure",
-            "content" : "Array",
-            "detail": "Some text here"
+            "content" : "Array"
         },
         {
             "title": "Complexity",
             "subcontent" : "Average",
-            "content": "$O(n^{2})$",
-            "detail": "Some text here"
+            "content": "$O(n^{2})$"
         }
     ],
 
