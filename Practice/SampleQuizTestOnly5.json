@@ -1,7 +1,6 @@
 [
     {
         "type": "fulltext",
-        "answer_detail": "Toto je detailný popis a vysvetlenie postupu k riešeniu správnej odpovede",
         "case_sensitive": false,
         "fulltext": false,
         
@@ -34,7 +33,6 @@
         "list": [
             {
                 "text": "### Ktoré z nasledujúcich fyzikálnych rovníc sú pravdivé?",
-                "answer_detail": "",
                 "true": [ 
                     "$$E=mc^{2}$$",
                     "$$F_{vzt} = V*\\rho _{k}*g$$"

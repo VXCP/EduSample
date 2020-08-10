@@ -13,8 +13,7 @@
         "answers": [{
                 "text": "Mouse",
                 "position": "0.48:0.8",
-                "size": "0.2 : 0.2",
-                "sound": "@~/Sounds/alarm.ogg"
+                "size": "0.2 : 0.2"
             },
             {
                 "text": "Printer",
@@ -24,14 +23,12 @@
             {
                 "text": "Case",
                 "position": "0.82:0.18",
-                "sound": "@~/Sounds/harmonicaCoin.mp3",
                 "size": "0.1:0.1"
             },
             {
                 "text": "Keyboard",
                 "position": "0.17:0.81",
-                "size": "0.5:0.5",
-                "sound": "@../Sounds/bicycle-horn-1.wav"
+                "size": "0.5:0.5"
             },
             {
                 "text": "WiFi",
@@ -90,7 +87,6 @@
             {
                 "text": "### Ktorá z následujúcich rovníc definuje vzťah rovnosti medzi energiou a hmotou, ktorú opísal Albert Einstein v teorii relativity?",
                 "singleChoice": true,
-                "answer_detail": "",
                 "true": [ 
                     "$$E=mc^{2}$$"
                 ],
@@ -109,7 +105,6 @@
             {
                 "text": "### Ktorý filozof sa označuje ako zakladateľ tomizmu?",
                 "singleChoice": true,
-                "answer_detail": "",
                 "imageFit" : "cover",
                 "true": [ 
                     {
@@ -312,7 +307,6 @@
     },
     {
         "type": "fulltext",
-        "answer_detail": "Toto je detailný popis a vysvetlenie postupu k riešeniu správnej odpovede",
         "case_sensitive": false,
             "text": "__V tejto časti je priestor pre zadanie úlohy__  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend mi a neque ornare, quis vehicula mauris efficitur. Vestibulum ex urna, facilisis vitae luctus id, suscipit vestibulum turpis. Vestibulum sit amet neque in lorem rhoncus ultricies eget ut quam. Duis enim sapien, faucibus eu convallis non, varius nec mi. Praesent efficitur, lorem eu malesuada viverra, tortor mauris pulvinar metus, sagittis efficitur erat lorem eget elit. Phasellus nec massa aliquam, laoreet elit vitae, elementum justo. Sed ornare odio non aliquet lobortis. Morbi aliquet felis vitae risus vehicula, eget varius metus eleifend. Sed commodo arcu non porta placerat",
             "answers": [{
