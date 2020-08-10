@@ -2,8 +2,8 @@
     "title": "Vertex Shader",
     "thumbnail": "@../Assets/VertexShaderThumbnail.png",
     "hierarchy": {
-        "source": "@~/Assets/vertex_shader_pipeline.png",
-        "position": "0.5:0.17"
+        "source": "@~/Assets/OpenGL-Pipeline.png",
+        "position": "0.12:0.17"
     },
     "quiz":["@../Practice/SampleQuizTestOnly4.json"],
     "facts": [

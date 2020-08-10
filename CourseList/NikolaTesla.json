@@ -7,19 +7,19 @@
             "title": "* Narodenie",
             "content": "10. Jul 1856",
             "subcontent": "Smiljan, Rakúske cisárstvo ",
-            "detail" : "Detail 1"
+            "detail" : "Tu môže byť detailný popis k narodeniu"
         },
         {
             "title": "† Úmrtie",
             "content": "7. Jan 1943",
             "subcontent": "New York, USA",
-            "detail" : "Detail 2"
+            "detail" : "Tu môže byť detailný popis k úmrtiu"
         },
         {
             "title": "Zamestnanie",
             "content": "Vedec",
             "subcontent": "Fyzik, Konštruktér",
-            "detail" : "Detail 3"
+            "detail" : "Tu môže byť detailný popis k zamestnaniu"
         }
     ],
 
