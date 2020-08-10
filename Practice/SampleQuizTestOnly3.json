@@ -310,7 +310,7 @@
         "case_sensitive": false,
             "text": "__V tejto časti je priestor pre zadanie úlohy__  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend mi a neque ornare, quis vehicula mauris efficitur. Vestibulum ex urna, facilisis vitae luctus id, suscipit vestibulum turpis. Vestibulum sit amet neque in lorem rhoncus ultricies eget ut quam. Duis enim sapien, faucibus eu convallis non, varius nec mi. Praesent efficitur, lorem eu malesuada viverra, tortor mauris pulvinar metus, sagittis efficitur erat lorem eget elit. Phasellus nec massa aliquam, laoreet elit vitae, elementum justo. Sed ornare odio non aliquet lobortis. Morbi aliquet felis vitae risus vehicula, eget varius metus eleifend. Sed commodo arcu non porta placerat",
             "answers": [{
-                    "label": "Podotázka s číselnou odpoveďou",
+                    "label": "Podotázka s číselnou odpoveďou (Odpoveď je 40)",
                     "value": [
                         40.0,
                         50
@@ -327,7 +327,7 @@
                     ]        
                 },
                 {
-                    "label": "Podotázka s pravdivostnou hodnotou",
+                    "label": "Podotázka s pravdivostnou hodnotou (Odpoveď: TRUE)",
                     "value": true              
                 }
             ]
