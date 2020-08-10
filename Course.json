@@ -1,7 +1,7 @@
 {
     "name" : "Example",
     "authors": "Author Here",
-    "enableInlineDictionary": false,
+    "enableInlineDictionary": true,
     "thumbnail" : "@./Assets/nikola_tesla.jpg",
     "sections" :[
             "Mixed Section",
@@ -17,11 +17,11 @@
             "Section No.2",
             [
                 "@./CourseList/Example.json",
+                "@./CourseList/Example2.json",
                 "@./CourseList/Example.json",
+                "@./CourseList/Example2.json",
                 "@./CourseList/Example.json",
-                "@./CourseList/Example.json",
-                "@./CourseList/Example.json",
-                "@./CourseList/Example.json"
+                "@./CourseList/Example2.json"
             ]
     ]
 }

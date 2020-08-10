@@ -5,15 +5,14 @@
             {
                 "text": "### Podpora zvukov pri stlaceni moznosti",
                 "visual": "@~/Example.png",
-                "answer_detail": "Just because it is",
                 "true": [
                     {
-                        "text": "$$Hello$$",
+                        "text": "$$True 1$$",
                         "image": "@~/Assets/Example.png",
                         "sound": "@~/Sounds/harmonicaCoin.mp3"
                     },
                     {
-                        "text":"$$Hello 2$$",
+                        "text":"$$True 2$$",
                         "sound": "@~/Sounds/sd_0.wav"
                     },
                     {
@@ -21,12 +20,12 @@
                         "sound": "@~/Sounds/sd_0.wav"
                     },
                     {
-                        "text" : "Nikola Tesla",
+                        "text" : "Text True 3",
                         "image": "@~/Assets/nikola_tesla.jpg",
                         "sound": "@~/Sounds/sd_0.wav"
                     },
                     {
-                        "text" : "Nikola Tesla",
+                        "text" : "Text True 4",
                         "image": "@~/Assets/nikola_tesla.jpg",
                         "sound": "@~/Sounds/sd_0.wav"
                     }
@@ -87,7 +86,7 @@
         ]},
     {
         "type": "sort",
-        "text": "Welcome To Sort Question. Please sort the following constants by value  from __highest__ to __lowest__ ",
+        "text": "Please sort the following constants by value  from __highest__ to __lowest__ ",
         "sort": [
             {
                 "text": "$$9$$",

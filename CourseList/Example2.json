@@ -1,21 +1,11 @@
 {
-    "title": "Lecture Ex.",
+    "title": "Lecture Ex.2",
     "thumbnail": "@../Assets/nikola_tesla.jpg",
     "sounds" : [
         {
             "title": "Audio 1",
             "credits": "Some Author or License 1",
             "source": "@~/Sounds/harmonicaCoin.mp3"
-        },
-        {
-            "title": "Audio 2",
-            "credits": "Some Author or License 2",
-            "source": "@~/Sounds/harmonicaCoin.mp3"
-        },
-        {
-            "title": "Audio 3",
-            "credits": "Some Author or License 3",
-            "source": "@../Sounds/alarm.ogg"
         }
     ],
     "hierarchy": {
