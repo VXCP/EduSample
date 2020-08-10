@@ -8,7 +8,7 @@
                 "true": [
                     {
                         "text": "$$True 1$$",
-                        "image": "@~/Assets/Example.png",
+                        "image": "@~/Assets/nikola_tesla.jpg",
                         "sound": "@~/Sounds/harmonicaCoin.mp3"
                     },
                     {
@@ -34,7 +34,7 @@
                 "false": [
                     {
                         "text": "$$False$$",
-                        "image": "@~/Assets/Example.png",
+                        "image": "@~/Assets/nikola_tesla.jpg",
                         "sound": "@~/Sounds/harmonicaCoin.mp3"
                     }
                 ]
