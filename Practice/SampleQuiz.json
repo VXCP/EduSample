@@ -63,54 +63,24 @@
         "text": "Welcome To Pairs Question. Please pair the objects in the list above.",
         "pairs": [
             [
-                {
-                    "text" : "A1?",
-                    "sound": "@~/Sounds/sd_0.wav"
-                },
-                {
-                    "text" : "B1!",
-                    "sound": "@~/Sounds/sd_0.wav"
-                }
+                "A1?",
+                "B1!"
             ],
             [
-                {
-                    "text" : "A2?",
-                    "sound": "@~/Sounds/alarm.ogg"
-                },
-                {
-                    "text" : "B2!",
-                    "sound": "@~/Sounds/alarm.ogg"
-                }
+                "A2?",
+                "B2!"
             ],
             [
-                {
-                    "text" : "A3?",
-                    "sound": "@~/Sounds/sd_0.wav"
-                },
-                {
-                    "text" : "B3!",
-                    "sound": "@~/Sounds/sd_0.wav"
-                }
+                "A3?",
+                "B3!"
             ],
             [
-                {
-                    "text" : "A4?",
-                    "sound": "@~/Sounds/alarm.ogg"
-                },
-                {
-                    "text" : "B4!",
-                    "sound": "@~/Sounds/alarm.ogg"
-                }
+                "A4?",
+                "B4!"
             ],
             [
-                {
-                    "text" : "A5?",
-                    "sound": "@~/Sounds/sd_0.wav"
-                },
-                {
-                    "text" : "B5!",
-                    "sound": "@~/Sounds/sd_0.wav"
-                }
+                "A5?",
+                "B5!"
             ]
         ]},
     {
